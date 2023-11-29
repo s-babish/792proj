@@ -1,0 +1,6 @@
+- extractbycol.py = put in (1) input file, (2) name of output file, (3) column to extract rows according to, (4+) values of the column you want to pull out. ex: i used this to pull out all the samples we had from 4 different counties by putting "County" as argument #3 and the names of the counties as argument #4
+- countyfilter.py = not generalizable at all, it's the hard-coded version of extractbycol
+- dropduplicates.py = simple, removes spaces and drops duplicates from the input file (argument 1) based on the given column (argument 2)
+- checkmamu.py = good ideas here but probably not as useful for you, it checks if specimens are in one file but not a second and writes the value from a given column to a text file if it's in one and not in the other
+- mamuchk.py = a little hard-coded, it checks if a sample in one file is in two other files and adds a column to the original file that shows if they're in the two others or not
+- extract_couchii.py = hard-coded but easily adaptable, it pulls out all samples of a given species 
