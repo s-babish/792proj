@@ -1,4 +1,4 @@
- INDIV ,species,Locality,WT,SVL,TL,Trial1,Trial2,BASE,INJ #,TTX DOSE,POST TIME,POST/BASE,ml of Dilution,dilution,,50% MAMU
+INDIV,species,Locality,WT,SVL,TL,Trial1,Trial2,BASE,INJ #,TTX DOSE,POST TIME,POST/BASE,ml of Dilution,dilution,,50% MAMU
 3.3,T.c.,Hat Cr.,129.5,700,856,0.545,0.647,0.596,0.5MU,0.00093,0.917,64.99%,0.093,.01mg/ml,,1.71
 3.3,T.c.,Hat Cr.,129.5,700,856,0.545,0.647,0.596,15MU,0.02776,10.013,5.95%,0.139,.2mg/ml,,
 3.3,T.c.,Hat Cr.,129.5,700,856,0.545,0.647,0.596,1MU,0.00185,0.922,64.64%,0.185,.01mg/ml,,
