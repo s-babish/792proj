@@ -1,0 +1,971 @@
+lep species,plant species
+acharia horrida,['calathea crotalifera']
+acharia hyperoche,['musa acuminata' nan 'solanum sp']
+acharia nesea,"['anthurium sp' nan 'hyeronima alchorneoides' 'inga edulis' 'heliconia sp'
+ 'anthurium clavigerum' 'piper reticulatum' 'guatteria diospyroides'
+ 'adelia triloba']"
+acharia ophelians,['heliconia sp']
+acharia sarans,"[nan 'alchornea costaricensis' 'musa sp' 'heliconia sp'
+ 'anthurium clavigerum' 'neea psychotroides' 'calathea lutea'
+ 'anthurium sp' 'calathea sp']"
+acharia sp,['piper colonense' 'piper sp' 'heliconia sp']
+achlyodes bursirus heros,"[nan 'psychotria chiapensis' 'zanthoxylum panamense' 'hiraea reclinata'
+ 'zanthoxylum sp' 'myriocarpa longipes' 'hampea appendiculata'
+ 'jacaratia spinosa']"
+achlyodes selva,['zanthoxylum panamense']
+achlyodes sp,['zanthoxylum panamense' 'piper reticulatum' 'siparuna grandiflora']
+achlyodes thraso,['zanthoxylum panamense' nan 'zanthoxylum ridelianum']
+aclytia albistriga,[nan 'fischeria panamensis' 'scleria sp' 'cordia alliodora']
+aclytia haber,[nan]
+acribia maculifrons,['stigmaphyllon lindenianum']
+acroceracops sp,['myriocarpa longipes']
+acrotomia mucia,['psychotria eurycarpa']
+acrotomia trilva,['gouania lupuloides' nan 'piper auritum' 'gouania sp' 'gouania polygama']
+actinote guatemalena,['mikania sp' 'mikania vitifolia' 'piper sp']
+actinote leucomelas,['mikania sp']
+adeloneivaia jason,['pithecellobium longifolium' 'inga sp' 'zygia longifolia']
+adeloneivaia sp,['virola sebifera']
+adelpha boeotia boeotia,['warszewiczia coccinea']
+adelpha celerio,"['miconia multispicata' 'sabicea sp' 'conostegia subcrustulata'
+ 'warszewiczia coccinea']"
+adelpha cocala lorzae,['warszewiczia coccinea' 'pentagonia donnell-smithii' nan]
+adelpha cytherea marcia,"['sabicea villosa' 'heliocarpus appendiculatus' 'solanum rugosum'
+ 'warszewiczia coccinea' 'pentagonia donnell-smithii']"
+adelpha erotia,['cecropia obtusifolia' 'sabicea villosa']
+adelpha heraclea,['neea psychotroides' 'vitex cooperi']
+adelpha ixia leucas,['jubelina wilburii' nan]
+adelpha lerna aeolia,['hiraea sp']
+adelpha pylaca,['luehea seemannii']
+adelpha sp,"['cecropia obtusifolia' nan 'myriocarpa longipes' 'sabicea sp'
+ 'sabicea villosa' 'heliocarpus sp' 'psychotria sp'
+ 'conostegia subcrustulata' 'pentagonia donnell-smithii'
+ 'ochroma pyramidale' 'faramea sp' 'inga sp' 'uncaria tomentosa'
+ 'pentagonia monocaulis']"
+adhemarius sp,['ocotea sp']
+adhemarius ypsilon,['ocotea sarah']
+aellops ceculus,['sabicea villosa' 'sabicea sp' nan]
+aesiocopa necrofolia,['piper reticulatum']
+agaraea sp,"['costus malortieanus' 'costus sp' 'costus scaber' 'hampea appendiculata'
+ 'aciotis rubricaulis']"
+agrius cingulata,['ipomoea squamosa']
+agyrogramma verruca,['piper auritum']
+amastus helops,['pouteria unilocularis' 'ficus insipida' 'ficus colubrinae']
+amorbia depicta,['piper auritum' 'piper hispidum' nan]
+amorbia sp,['cecropia obtusifolia']
+amphimoea walkeri,['anaxagorea crassipetala']
+anacrusis auleodes,"[nan 'sorocea pubivena' 'piper sp' 'smilax sp' 'ardisia nigropunctata'
+ 'piper reticulatum' 'annona muricata' 'colubrina spinosa'
+ 'ochroma pyramidale' 'piper multiplinervium']"
+anacrusis nephrodes,"['ardisia nigropunctata' 'piper reticulatum' 'nectandra reticulata'
+ 'piper cenocladum' 'hampea appendiculata' nan]"
+anacrusis nephrodes/auleodes,['hampea appandiculata']
+anacrusis sp,"[nan 'solanum rugosum' 'erythroxylum macrophyllum' 'lycianthes synanthera'
+ 'hampea appendiculata' 'neea sp' 'piper peltatum' 'piper lanceifolium'
+ 'pentagonia donnell-smithii' 'piper auritum' 'psychotria chiapensis'
+ 'nectandra reticulata' 'piper reticulatum']"
+anarmodia nebulosalis,['composneura sp']
+ancereropia sp,['pourouma sp']
+ancyluris jurgensenii,[nan 'hyeronima alchorneoides']
+ancyluris sp,['guatteria diospyroides']
+anomis nr patagiata,['hampea appendiculata' 'lycianthes synanthera' 'hamelia patens']
+anomis sp,"['hampea appendiculata' 'heliocarpus appendiculatus' nan
+ 'pavonia schiedeana' 'pavonia sp']"
+antaeotricha renselariana,['pterocarpus sp' 'pterocarpus hayesii']
+anthoptus epictetus,[nan 'paspalum sp']
+anthoptus sp,['panicum sp']
+antichloris viridis,"['musa sp' 'rollinia pittieri' 'heliconia sp' 'musa velutina'
+ 'calathea sp']"
+anticla antica,['castilla elastica' 'maquira costaricana']
+anticlea sp,['maquira costaricana']
+antiopha multilinea,['paullinia rufescens']
+antirrhea philoctetes,['socratea exorrhiza']
+antirrhea sp,['heliconia sp']
+apatelodes adrastia,['chamissoa altissima' 'piper sancti-felicis']
+apatelodes albipuncta,['rollinia sp' 'calathea sp' 'piper auritum']
+apatelodes erotina,"['piper auritum' 'stigmaphyllon lindenianum' 'ipomoea sp' nan
+ 'piper peltatum' 'witheringia asterotricha' 'solanum adhaerens'
+ 'aegiphila falcata' 'psychotria hebeclada' 'casearia arborea'
+ 'pavonia sp' 'piper colonense' 'piper sp' 'vernonanthura patens'
+ 'solanum rudepannum' 'byttneria aculeata' 'croton panamensis'
+ 'solanum sp' 'piper multiplinervium' 'cordia alliodora' 'piper hispidum'
+ 'piptocarpha poeppigiana' 'cedrela odorata' 'cestrum racemosum'
+ 'ipomoea philomega' 'mikania sp' 'piper sancti-felicis']"
+apatelodes sp,"['vernonanthura patens' 'ocotea hartshorniana' 'casearia corymbosa'
+ 'casearia arborea' 'witheringia asterotricha' 'amphilophium paniculatum']"
+aphrissa neleis,['pithecellobium longifolium']
+aphrissa statira,['pithecellobium longifolium']
+apomopteryx pterophoralis,['laportea aestuans']
+appias drucilla,[nan 'dichapetalum axillare']
+arawacus nr lincoides,"[nan 'solanum adhaerens' 'solanum siparunoides' 'solanum jamaicense'
+ 'solanum rudepannum' 'solanum rugosum']"
+arawakus sp,['solanum lanceifolium' 'solanum adhaerens']
+archaeoprepona sp,"[nan 'casearia arborea' 'guarea guidonia' 'anaxagorea crassipetala'
+ 'inga alba']"
+archaeprepona demophon,['nectandra membranaceae']
+archaeprepona demophon gulina,"[nan 'pithecellobium longifolium' 'nectandra membranaceae' 'ocotea cernua'
+ 'piper virgulatorum']"
+aroma aroma,[nan 'cyclanthus bipartitus']
+astraptes alardus,"['erythrina sp' 'erythrina bilya' nan 'croton sp' 'ocotea hartshorniana'
+ 'erythrina poeppigiana' 'erythrina gibbosa' 'erythrina cochleata']"
+astraptes anaphus annetta,[nan]
+astraptes augeas,['hampea sp']
+astraptes fulgerator azul,"['hampea appendiculata' 'anaxagorea crassipetala' 'inga sp'
+ 'zygia longifolia' nan 'hamelia patens' 'erythrina bilya' 'erythrina sp'
+ 'inga pezizifera' 'hampea appandiculata']"
+astraptes nr egregius,['vigna sp']
+astraptes sp,"['heliconia sp' nan 'mikania sp' 'solanum sp' 'hamelia patens'
+ 'geonoma sp']"
+asturodes fimbriauralis,"['colubrina spinosa' 'gouania lupuloides' nan 'gouania sp'
+ 'vismia baccifera']"
+ategumia sp,[nan 'miconia sp' 'neea psychotroides' 'piper reticulatum']
+atteva aurea,['simarouba amara']
+atteva sp,['simarouba amara']
+automeris beltii,[nan 'welfia regia']
+automeris celata,['paspalum sp']
+automeris exigua,"[nan 'cordia alliodora' 'tournefortia glabra' 'erythrina sp'
+ 'lonchocarpus sp']"
+automeris hamata,['hampea appendiculata']
+automeris phrynon,['theobroma cacao']
+automeris postalbida,"[nan 'myriocarpa longipes' 'welfia regia' 'lacistema aggregatum'
+ 'mikania sp' 'inga sp' 'heliconia sp' 'calathea sp' 'theobroma cacao'
+ 'nectandra membranaceae' 'drymonia sp' 'acalypha arvensis'
+ 'mucuna holtonii' 'guarea sp' 'trophis sp' 'pleiostachya pruinosa'
+ 'acalypha diversifolia' 'pentagonia donnell-smithii'
+ 'pentagonia monocaulis' 'paullinia granatensis' 'schnella outimouta'
+ 'guatteria amplifolia' 'piper sp']"
+automeris sp,"[nan 'astrocaryum sp' 'hampea appendiculata' 'garcinia sp'
+ 'myriocarpa longipes' 'piper peltatum' 'welfia regia' 'psychotria sp'
+ 'hyeronima alchorneoides' 'zygia longifolia' 'lonchocarpus oliganthus'
+ 'goethalsia meiantha' 'luehea seemannii' 'ochroma pyramidale'
+ 'heliconia sp' 'geonoma congesta' 'virola sebifera' 'inga sp'
+ 'paspalum sp' 'anacardium occidentale' 'ryania speciosa'
+ 'rinorea deflexiflora' 'castilla elastica' 'nectandra sp' 'vismia sp'
+ 'pourouma minor']"
+automeris tridens,"['ormosia sp' 'aegiphila sp' nan 'senna fruticosa' 'carapa nicaraguensis'
+ 'colubrina spinosa' 'cecropia obtusifolia' 'pithecellobium longifolium'
+ 'hyeronima sp' 'cordia alliodora' 'tournefortia glabra'
+ 'hyeronima alchorneoides' 'nectandra floribunda' 'paspalum sp']"
+automeris zugana,['pentaclethra macroloba']
+bardaxima perces,['ouratea curvata']
+battus belus varus,['aristolochia sp' 'aristolochia constricta' nan]
+battus nr belus varus,[nan]
+battus polydamas polydamas,[nan 'aristolochia sp' 'aristolochia sprucei']
+battus sp,['aristolochia sp' nan 'aristolochia constricta' 'piper auritum']
+betulodes sp,['hyeronima alchorneoides']
+bigeyes oxytenid,[nan]
+brenthia sp,['calathea sp' nan]
+bungalotis nr quadratum,['hiraea fagifolia']
+bungalotis sp,['alchornea costaricensis' 'hiraea fagifolia']
+caerois gerdrudtus,['heliconia sp' 'musa sp']
+calephelis sp,['neurolaena lobata']
+caligo atreus ,['geonoma longivaginata']
+caligo atreus dionisos,['asterogyne martiana' 'heliconia sp' 'geonoma congesta']
+caligo eurylochus solanus,['musa sp' 'heliconia imbricata' 'heliconia sp']
+caligo illioneus oberon,['heliconia sp']
+caligo memnon,['heliconia sp' nan 'heliconia imbricata' 'musa sp' 'heliconia wagneriana']
+caligo sp,"['heliconia sp' 'musa sp' nan 'psychotria sp' 'geonoma longivaginata'
+ 'geonoma sp' 'pleiostachya pruinosa' 'calathea marantifolia'
+ 'calathea sp']"
+callicore peralta,['serjania sp']
+callopistria floridensis,[nan 'thelypteris dentata']
+callopistria jamaicensis,['diplazium sp' nan]
+calodesma maculifrons,['dichapetalum axillare']
+calospila cilissa,['cissampelos sp' 'casearia corymbosa']
+calpodes ethlius,[nan 'calathea sp' 'canna tuerckheimii']
+calpodes sp,['calathea sp']
+carrhenes canescens canescens,[nan]
+castilia ofella,['odontonema tubaeforme' 'aphelandra storkii' 'aphelandra sinclairiana']
+catephiodes trinidadensis,['theobroma cacao']
+catonephele numilia esite,['alchornea costaricensis' nan]
+catonephele orites,[nan 'alchornea costaricensis']
+catonephele sp,[nan 'alchornea costaricensis' 'dalechampia sp']
+charis iris,['mikania guaco']
+chetone angulosa,['tournefortia sp']
+chetone ithomia,['laportea aestuans' 'piptocarpha poeppigiana']
+chloreuptychia arnaea,['panicum sp' 'geoppertia gloriana' 'heliconia sp']
+chloropaschia sp,['chrysochlamys glauca']
+chlosyne gaudealis,['odontonema tubaeforme' 'clibadium pittieri' nan]
+chlosyne janais,"['odontonema tubaeforme' nan 'croton sp' 'clibadium pittieri'
+ 'dichapetalum axillare' 'clibadium surinamense' 'aphelandra storkii'
+ 'aphelandra sinclairiana']"
+chlosyne lacinia,[nan 'clibadium pittieri']
+chlosyne sp,['odontonema tubaeforme' nan]
+chrostosoma sp,[nan]
+cimicodes ferruginea,[nan]
+cissia alcinoe,['byttneria aculeata']
+cissia terrestris,['panicum sp' nan]
+cocytius beelzebuth,['guatteria diospyroides']
+cocytius duponchel,"['aegiphila falcata' 'aegiphila sp' 'psychotria sp'
+ 'guatteria diospyroides' 'castilla elastica']"
+cocytius sp,['piper auritum' 'guatteria diospyroides']
+colobura dirce,['cecropia obtusifolia' nan]
+consul fabius,['piper sancti-felicis' 'piper reticulatum']
+consul fabius cecrops,"['piper glabratum' 'piper hispidum' 'piper sp' 'piper lanceifolium'
+ 'piper colonense' 'piper phytolaccaefolium' 'piper auritum'
+ 'piper virgulatorum' 'piper garagaranum' 'piper peltatum'
+ 'piper glabrescens' 'piper reticulatum' 'piper multiplinervium'
+ 'piper generalense' 'piper sancti-felicis' 'piper spd' 'piper umbricola']"
+consul panariste jansoni,['piper multiplinervium' 'piper reticulatum' 'piper hispidum']
+consul sp,['piper multiplinervium' 'piper colonense']
+copaxa curvilinear,[nan 'nectandra membranaceae' 'ocotea hartshorniana' 'nectandra sp']
+copaxa sp,['nectandra sp']
+cosmosoma festivum,['ruellia metallica' 'mikania guaco']
+cosmosoma sp,"['miconia sp' 'calyptrogyne ghiesbreghtiana' 'asterogyne martiana'
+ 'fischeria panamensis' 'heliconia sp' 'welfia regia' nan 'inga edulis'
+ 'calathea sp' 'nectandra membranaceae' 'musa sp' 'tripogandra sp'
+ 'mikania sp' 'geonoma congesta' 'chamaedorea tepejilote' 'miconia elata'
+ 'mikania guaco' 'anaxagorea crassipetala']"
+cosmosoma zucheri,[nan]
+costus sp,['costus sp']
+crinodes besckei,['gouania lupuloides']
+crinodes sp,['gouania lupuloides' 'disciphania sp']
+cropia cediche,['cordia alliodora']
+cropia grandimacula,['smilax officinalis']
+cropia nr cedice,['cordia alliodora' nan]
+cropia sp,['cordia alliodora' 'cordia sp' 'tournefortia sp']
+cyclomia disparilis,"['odontonema tubaeforme' 'piper evasum' nan 'colubrina spinosa'
+ 'grammitis sp' 'capparis pittieri']"
+cyclomia nr disparilis,"['colubrina spinosa' nan 'psychotria chiapensis' 'myriocarpa longipes'
+ 'cissampelos sp' 'stryphnodendron microstachyum' 'passiflora vitifolia']"
+cyclophora ruficosta,['guatteria diospyroides']
+cyclophora sp,"['vernonanthura patens' 'guatteria diospyroides' nan
+ 'siparuna talamancarum' 'siparuna sp' 'colubrina spinosa'
+ 'siparuna grandiflora']"
+cyclophora sp 2,['ficus sp' nan 'guatteria diospyroides' 'piper cenocladum']
+cyclophora sp 3,['colubrina spinosa']
+cyclosaemia subcoerulea,[nan 'costus sp']
+cyllopoda jatropharia,['heteropterys macrostachya']
+dasylophia sp,['paullinia sp' nan 'paullinia serjaniifolia']
+desmia sp,"['psychotria sp' 'psychotria marginata' nan 'psychotria horizontalis'
+ 'mireocarpa longipes' 'boehmeria sp' 'notopleura sp']"
+desmia sp 1,['psychotria sp']
+desmia sp 2,[nan 'neea psychotroides' 'psychotria sp']
+desmia sp 3,"['hamelia patens' 'psychotria psychotrifolia' nan 'psychotria chiapensis'
+ 'psychotria marginata' 'psychotria sp' 'psychotria horizontalis'
+ 'hampea appendiculata']"
+desmotrichia ursula,['brosimum lactescens' 'heliconia sp']
+diaethria marchalii,['alchornea sp' 'trema interregima']
+dinia aeagrus,[nan]
+dioptis longipennis,"[nan 'geonoma sp' 'asterogyne martiana' 'paspalum sp'
+ 'calyptrogyne ghiesbreghtiana' 'rinorea deflexiflora' 'geonoma congesta'
+ 'panicum sp' 'paspalum fasciculatum']"
+dioptis sp,[nan 'rinorea deflexiflora' 'geonoma sp' 'geonoma congesta']
+diospage corilla,['maquira costaricana' 'maquira guianensis' 'hampea appendiculata']
+dircenna dero euchytma,['solanum rudepannum']
+disgonia sp,['gnetum leyboldii']
+dismorphia amphiona praxinoe,['inga oerstediana' 'inga sp']
+disodia sp,['piper auritum' 'piper peltatum']
+disphragis albolineata,['castilla elastica' 'naucleopsis naga']
+disphragis lama,['nectandra reticulata']
+disphragis ligneata,['myriocarpa longipes']
+disphragis nr albolineata,['castilla elastica' 'pterocarpus officinalis' 'perebea hispidula']
+disphragis nr mephitis,['psychotria sp']
+disphragis sp,['alchornea costaricensis']
+drugera morona,['miconia sp']
+dryas julia,"['passiflora vitifolia' 'passiflora auriculata' 'passiflora biflora'
+ 'hamelia patens' nan]"
+dubiella fiscella belpa,"['welfia regia' nan 'calyptrogyne ghiesbreghtiana' 'chamaedorea sp'
+ 'asterogyne martiana' 'paullinia fibrigera' 'geonoma sp' 'calathea sp'
+ 'euterpe precatoria' 'chamaedorea pinnatifrons'
+ 'cryosophila warscewiczii' 'geonoma congesta']"
+dunama agulinea,[nan 'heliconia sp' 'castilla elastica']
+dunama sp,['heliconia sp']
+dynamine hoppi gillotti,[nan 'dalechampia cissifolia' 'dalechampia sp']
+dyomyx janus,['sloanea fagifolia']
+dyops nr chromatophila,['cecropia obtusifolia']
+dyscophellus phraxanor,"['piper cenocladum' 'otoba novogranatensis' 'virola sp'
+ 'solanum rovirosanum' 'virola sebifera' 'virola koschnyi']"
+dysodia sp,"['piper peltatum' 'piper auritum' 'passiflora vitifolia' nan
+ 'hampea appendiculata' 'piper carrilloanum' 'myriocarpa longipes'
+ 'protium sp' 'solanum sp' 'piper hispidum' 'vernonanthura patens'
+ 'dalechampia websterii' 'cedrela odorata' 'hyeronima alchorneoides'
+ 'manihot brachyloba']"
+dysphania sp,['vernonanthura patens']
+dysschema jansonis,"['vernonanthura patens' 'mikania sp' 'piptocarpha poeppigiana'
+ 'clibadium surinamense']"
+dysschema leucophaea,"[nan 'vernonanthura patens' 'erythrina sp' 'miconia sp' 'hamelia patens'
+ 'guatteria diospyroides' 'vernonanthura sp' 'solanum adhaerens']"
+dysschema magdala,"['pterocarpus sp' 'solanum sp' 'vernonanthura patens' 'cestrum racemosum'
+ 'neurolaena lobata']"
+dysschema sp,['mikania sp' 'vernonanthura patens']
+eacles sp,['cupressus sempervirens' nan]
+ebrietas evanidus,['sterculia recordiana']
+ebrietas sp,['sterculia recordiana' 'pachira aquatica' 'sterculia sp']
+elaeognatha argyritis,['chrysochlamys glauca']
+elbella sp,['inga sp' 'hampea appendiculata' 'zygia longifolia']
+elymiotis alata,['stigmaphyllon lindenianum']
+elymiotis attenuata,['jubelina wilburii']
+elysius discoplaga,['vernonanthura patens']
+emesis lucinda,"['neea psychotroides' nan 'hamelia patens' 'neea sp'
+ 'passiflora auriculata' 'neea laetevirens' 'neea amplifolia']"
+emesis mandana,['miconia sp' 'spondias sp']
+emurena tripunctata,[nan]
+entheus matho,['eschweilera longirachis' 'chusquea simpliciflora']
+entheus sp,['dichapetalum stipulatum' 'piper hispidum']
+entheus sp 1,['chusquea simpliciflora' 'bambusa vulgaris']
+enyo cavifer,['vitis tiliifolia']
+enyo ocypete,['pinzona sp' 'davilla nitida' 'cissus sp']
+eois apyraria,"['piper evasum' 'piper sp' 'piper cenocladum' nan 'piper biseriatum'
+ 'piper biolleyi' 'piper hispidum' 'piper colonense' 'piper melanocladum'
+ 'piper imperiale' 'piper arboreum' 'piper sancti-felicis'
+ 'piper reticulatum']"
+eois cassandra,['piper schiedeanum']
+eois dibapha,['piper sp' 'piper auritifolium' 'piper umbricola']
+eois dorisaria druce,['piper schiedeanum']
+eois dryantis numida,['piper hispidum']
+eois dryope,['piper sp']
+eois guapa,['piper peltatum']
+eois mexicaria,['piper auritum' 'piper generalense' 'piper sp' 'piper umbricola']
+eois nr citriaria,"['piper glabratum' 'piper sp' 'piper auritum' 'piper peltatum'
+ 'piper colonense' 'piper evasum' 'piper virgulatorum']"
+eois nr nigrosticta,[nan]
+eois nr numida,['piper hispidum']
+eois nr thetisaria,['piper schiedeanum']
+eois nucula,['piper multiplinervium']
+eois numida,['piper hispidum' 'piper sp' 'piper colonense' 'piper sancti-felicis']
+eois nympha,"['piper cenocladum' 'piper evasum' 'piper biseriatum' 'piper sp'
+ 'trophis sp' 'piper auritifolium' 'piper arboreum' 'piper imperiale'
+ 'piper reticulatum' 'piper multiplinervium' 'piper urostachyum'
+ 'piper trigonum']"
+eois obada,['piper biolleyi' 'piper sp' 'piper colonense' nan]
+eois occia,['piper auritum']
+eois picalis,['piper colonense']
+eois russearia,"['piper hispidum' 'piper colonense' 'piper sp' 'piper biolleyi'
+ 'piper glabrescens' 'piper generalense' 'piper cenocladum'
+ 'piper sancti-felicis' 'piper biseriatum']"
+eois sp,"['piper sp' nan 'piper biolleyi' 'piper aduncum' 'piper peltatum'
+ 'piper auritifolium' 'manekia naranjona' 'piper arcteacuminatum'
+ 'piper umbricola' 'piper schiedeanum' 'piper arboreum' 'piper obliquum'
+ 'piper epigynium' 'piper crassinervium' 'piper nudifolium' 'piper evasum'
+ 'piper prismaticum' 'piper cyanophyllum' 'piper umbullatum'
+ 'piper xanthostachyum' 'piper generalense' 'piper terrabanum'
+ 'piper colonense' 'piper cenocladum' 'piper sancti-felicis'
+ 'piper biseriatum' 'piper concepcionis' 'piper garagaranum'
+ 'piper trigonum' 'piper xantostachyum']"
+eois sp (auf),['piper auritifolium']
+eois sp 10,['piper auritum']
+eois sp 11,['piper nudifolium']
+eois sp 12,['piper cenocladum']
+eois sp 13,['piper reticulatum']
+eois sp 14,['piper pseudobumbratum']
+eois sp 15,['piper generalense']
+eois sp 16,['piper urostachyum']
+eois sp 2,['piper colonense']
+eois sp 3,['piper auritum']
+eois sp 4,['piper auritum']
+eois sp 5,['piper colonense']
+eois sp 6,['piper generalense']
+eois sp 7,['piper glabrescens']
+eois sp 8,['piper cenocladum']
+eois sp 9,['piper colonense']
+eois zenobia,['piper cenocladum' 'piper evasum' nan 'piper imperiale']
+epimecis patronaria,['piper auritum' 'piper reticulatum']
+epimecis sp,"['pentaclethra macroloba' nan 'piper auritum' 'piper colonense'
+ 'nectandra reticulata' 'anaxagorea crassipetala' 'rollinia pittieri'
+ 'miconia sp' 'hernandia stenura']"
+epiperola paida,['birsonima arthropoda']
+episcepis inornata,['ochroma lagopus' 'ochroma pyramidale']
+eracon lachensis,['sterculia recordiana']
+erbessa salvini,['henrietella tuberculosa']
+erinnyis alope,['manihot cassava' 'carica papaya']
+erinnyis apyaria,['manihot sp']
+erinnyis ello,"[nan 'manihot cassava' 'manihot sp' 'manihot esculenta'
+ 'heliocarpus appendiculatus' 'chamaesyce hyssopifolia' 'carica papaya']"
+erinnyis sp,['manihot sp' nan 'castilla elastica' 'manihot esculenta']
+esthemopsis clonia,['piper cenocladum']
+eucereon aeolum,['erythrina sp' nan 'erythrina poeppigiana' 'erythrina gibbosa']
+eucereon dilutia,['drymonia sp']
+eucereon latifascia,['ficus sp' 'ficus colubrinae']
+eucereon nr cipromonis,[nan]
+eucereon nr pseudarchias,['erythrina sp']
+eucereon sp,[nan 'clethra mexicana']
+euclea mesoamericana,['aphelandra storkii' 'herrania purpurea' 'luehea seemannii' 'guarea sp']
+euclea plugma,"['acalypha sp' 'heliconia imbricata' 'calathea sp' 'musa sp'
+ 'piper cenocladum' 'piper biseriatum' 'selaginella anceps']"
+euclea sp,['pentagonia donnell-smithii' nan 'piper colonense' 'hampea appendiculata']
+euclystis guerini,"['piper auritum' 'ochroma lagopus' nan 'inga sp' 'vernonanthura patens'
+ 'theobroma cacao']"
+euclystis plusiodes,['theobroma cacao']
+euclystis sp,['pithecellobium longifolium' nan 'cassia sp']
+eueides aliphera,"['passiflora vitifolia' nan 'passiflora sp' 'passiflora biflora'
+ 'passiflora auriculata' 'passiflora ambigua' 'passiflora oerstedii']"
+eueides isabella,['passiflora ambigua' 'passiflora vitifolia']
+eueides lybia olympia,['passiflora vitifolia']
+eueides vibilia vialis,['passiflora pittieri']
+euelasia regipennis,[nan]
+euglyphis rundala,['virola sp']
+euides aliphera,['passiflora auriculata']
+eumaeus godartii,['zamia skinneri' 'zamia neurophyllidia']
+eumaeus minyas,['zamia skinneri']
+eumorpha anchemola,['cissus sp']
+eumorpha labruscae,['cissus sp']
+eumorpha phorbas,[nan]
+eumorpha sp,['pinzona coriacea' 'cissus sp' nan]
+eumorpha vitis,['cissus sp']
+eunica mira,['mabea occidentalis']
+euprosterna hosia,[nan]
+euptychia jesia,"['selaginella sp' 'naucleopsis naga' 'selaginella sp1'
+ 'selaginella eurynota']"
+euptychia mollis,['selaginella sp' 'selaginella sp2' 'selaginella sp3']
+euptychia sp,['selaginella sp']
+eurema albula,['senna fruticosa' 'senna papillosa' 'cassia senna']
+eurytides brunchus,['rollinia pittieri']
+euselasia mystica,['psidium guajava']
+euselasia sp,['piper auritum']
+eutolype sp,['alchornea costaricensis' nan 'nephelium lappaceum']
+eutolype sp 2,[nan 'nephelium lappaceum']
+gamelia septentrionalis,"['dipteryx panamensis' 'senna fruticosa' 'clethra mexicana' 'inga sp'
+ 'guatteria diospyroides' 'senna papillosa' 'apeiba membranaceae'
+ 'paullinia rufescens' 'zygia longifolia' 'paullinia sp' 'musa sp'
+ 'hampea appendiculata' nan 'cousarea mexicana' 'mucuna holtonii'
+ 'nectandra reticulata' 'vernonanthura patens' 'calathea sp']"
+gonodonta bidens,['guatteria diospyroides']
+gonodonta correcta,['piper reticulatum']
+gonodonta fuvangula,['rollinia sp' 'rollinia pittieri']
+gonodonta ilusionista,['piper peltatum']
+gonodonta latimacula,['piper hispidum' 'piper peltatum' 'piper auritum']
+gonodonta nr fuvangula,"['cordia alliodora' 'rollinia sp' 'rollinia pittieri'
+ 'guatteria diospyroides' 'piper auritum']"
+gonodonta nr incurva,['piper sp']
+gonodonta nr sinaldus,"[nan 'cissus sp' 'cissampelos sp' 'alchornea costaricensis'
+ 'simarouba amara' 'psychotria sp']"
+gonodonta sicheas,"['cissampelos sp' 'plukenetia stipellata' 'piper hispidum'
+ 'cissampelos andromorpha' 'cissampelos tropaeolifolia']"
+gonodonta sinaldus,['cissampelos sp' 'anomospermum reticulatum']
+gonodonta sp,"['cissampelos sp' 'cecropia obtusifolia' 'mikania sp' 'piper peltatum' nan
+ 'piper auritum' 'piper hispidum' 'rollinia sp' 'neea psychotroides'
+ 'acacia sp' 'solanum rugosum' 'piper sp' 'rollinia pittieri'
+ 'paullinia sp' 'theobroma cacao' 'aegiphila sp' 'myriocarpa longipes'
+ 'cissampelos grandifolia' 'aristolochia sp' 'peperomia sp'
+ 'odontonema tubaeforme' 'cissampelos andromorpha' 'piper paracuminatum'
+ 'piper colonense' 'piper reticulatum' 'piper multiplinervium'
+ 'cissampelos tropaeolifolia' 'guatteria diospyroides' 'piper urostachyum'
+ 'piper sancti-felicis']"
+gonodonta sp 1,['piper auritum']
+gonodonta sp 2,['piper auritum']
+gonodonta sp 3,['cissampelos sp']
+gonodonta sp 4,['hamelia patens']
+gonodonta sp 5,['piper hispidum']
+gonodonta sp 6,['cissampelos sp']
+gonodonta sp 7,['cissampelos sp']
+gonodonta sp 8,['cissampelos sp']
+gonodonta sp 9,['piper auritum']
+gonodonta uxoria,['neea psychotroides' 'piper peltatum' 'piper auritum' 'piper sp']
+gonuris flaminia,[nan]
+greta oto,['cestrum sp']
+gymnelia salvini,[nan 'paullinia sp']
+halysidota cyclozonata,[nan 'fischeria panamensis' 'neurolaena lobata']
+halysidota grandis,['ocotea sp']
+halysidota pectenalla,['castilla elastica' 'trophis racemosa']
+halysidota sp,['ficus colubrinae']
+hamadryas amphinome mexicana,['dalechampia sp' 'dalechampia websterii']
+hamadryas arinome ariensis,['dalechampia sp' 'dalechampia websterii']
+hamadryas laodania saurites,['dalechampia cissifolia']
+hamadryas sp,['dalechampia websterii' nan]
+hapigia simplex,['pithecellobium longifolium']
+heliconious sara fulgidus,['manihot sp']
+heliconius charitonius,['passiflora lobata']
+heliconius cydno galanthus,"['passiflora sp' 'passiflora vitifolia' 'passiflora ambigua'
+ 'passiflora oerstedii']"
+heliconius doris,['passiflora sp' 'passiflora auriculata']
+heliconius erato petiverania,['passiflora biflora']
+heliconius hecale zuleika,"['passiflora vitifolia' 'passiflora auriculata' nan 'heliconia sp'
+ 'passiflora ambigua' 'passiflora sp']"
+heliconius hecalesia formosus,['passiflora biflora' 'passiflora sp']
+heliconius melpomene,['passiflora sp']
+heliconius sapho,['passiflora auriculata' 'passiflora vitifolia']
+heliconius sara fulgidus,"['passiflora auriculata' 'passiflora vitifolia' 'passiflora sp'
+ 'cissampelos sp']"
+heliconius sp,"['passiflora biflora' 'passiflora vitifolia' 'passiflora sp'
+ 'heliconia sp' nan 'passiflora auriculata']"
+hemerophila sp,['ficus colubrinae']
+hemeroplanes ornatus,['fischeria panamensis']
+hemeroplanes triptolemis,[nan 'solanum adhaerens']
+hemiceras monegouda,['pithecellobium longifolium' 'inga sp']
+hemiceras nr torva,['pithecellobium longifolium']
+hemiceras pallidula,['inga sp']
+hemiceras sp,"['welfia regia' 'paullinia sp' 'inga sp' 'serjania mexicana'
+ 'lonchocarpus oliganthus' 'pecluma pectinata']"
+hemiceras vecina,['inga sp']
+herpetogramma sp,['solanum jamaicense' 'colubrina spinosa' 'piper hispidum']
+herpetogramma sp1,['solanum siparunoides' 'solanum americanum' 'piper peltatum']
+herpetogramma sp2,[nan]
+herpetogramma sp4,['piper peltatum']
+historis acheronta,['coussapoa nymphaeifolia']
+historis odius,[nan]
+hyaleucerea sp 1,['pourouma bicolor' 'pourouma minor' 'capparis pittieri']
+hyaleucerea sp 2,['psychotria sp']
+hyalostenele lutescens,['cedrela odorata' nan]
+hyalothyrus neleus,['inga sp']
+hyalurga sora,['tournefortia sp' nan 'piper colonense' 'tournefortia glabra']
+hygrochroma sp,['psychotria chiapensis' 'psychotria sp' 'neea psychotroides']
+hylesia aeneides,['croton sp']
+hylesia nr rubifrons,['hampea appendiculata']
+hylesia rubifrons,['hyeronima alchorneoides' 'hampea appendiculata' 'cordia alliodora']
+hylesia sp,"['hampea appendiculata' nan 'rollinia sp' 'theobroma cacao' 'heliconia sp'
+ 'luehea seemannii' 'hyeronima alchorneoides' 'croton sp'
+ 'myriocarpa longipes' 'casearia sp' 'hyeronima sp' 'virola sebifera'
+ 'solanum rudepannum' 'cordia alliodora' 'cedrela odorata' 'piper spd'
+ 'croton schiedeanus']"
+hymenomima memor,"['pterocarpus officinalis' 'aegiphila falcata' 'hyeronima alchorneoides'
+ 'cedrela odorata']"
+hypena sp,['myriocarpa longipes' 'miconia sp' 'urera caracasana']
+hyperchiria sp,['inga oerstediana']
+hypercompe leata,"['aegiphila falcata' 'guarea sp' 'inga edulis' 'ipomoea sp'
+ 'vernonanthura patens' nan 'philodendron sp' 'neea sp']"
+hypercompe muzina,['aegiphila falcata' 'mikania sp' nan 'cordia alliodora']
+hypercompe sp,[nan 'melothria pendula' 'piper auritifolium' 'mikania sp']
+hypoleria cassotis,['cuatresia cuneata' 'cestrum sp']
+hypothyris euclea valora,[nan 'solanum rugosum' 'hamelia patens' 'inga sp' 'cestrum racemosum']
+ialdus criuris,['psidium guajava']
+ichnopteris bryifera,['aegiphila falcata' 'costus sp']
+idaea sp,['piper colonense' 'piper hispidum' 'piper sp' nan 'piper evasum']
+isanthrene championi,"[nan 'vernonanthura patens' 'myriocarpa longipes' 'piper biseriatum'
+ 'nectandra membranaceae' 'piper peltatum' 'mikania sp' 'ocotea sp'
+ 'ocotea floribunda' 'nectandra reticulata' 'mikania guaco']"
+isanthrene sp,['mikania guaco' 'nectandra reticulata' 'nectandra membranaceae']
+iscadia furcifera,['clusia sp' 'vismia baccifera']
+iscadia sp,['vismia sp' 'clusia sp' 'vismia baccifera']
+ischnopteris bryifera commixta,"['neea psychotroides' 'pentaclethra macroloba' 'lecythis ampla'
+ 'casearia arborea' 'phytolacca rivinoides' 'urera sp' 'urera eggersii'
+ 'casearia sp' 'pterocarpus officinalis' 'cedrela odorata']"
+isognathus scyron,['allamanda cathartica']
+isophrictus sp,['myriocarpa longipes' 'piper urostachyum']
+ithomia diasa hippocrenis,"['witheringia asterotricha' 'solanum siparunoides' 'randia sp'
+ 'myriocarpa longipes' 'witheringia sp' 'protium glabrun']"
+ithomia heraldica,['cuatresia cuneata']
+ithomiola theages theages,['maxilliaria uncata']
+lacostatia sp,['gnetum leyboldii']
+lepasta marcella,['paullinia sp']
+leucochimona lepida,['paullinia rugosa' nan 'psychotria sp']
+lirimiris meridionalis,"['pachira aquatica' 'theobroma cacao' 'sterculia recordiana'
+ 'ochroma lagopus' nan 'ochroma pyramidale']"
+lirimiris nr guatemalensis,"['cissampelos sp' 'ochroma lagopus' 'heliocarpus appendiculatus'
+ 'ochroma pyramidale']"
+lirimiris nr truncata,"['phytolacca rivinoides' 'hampea appendiculata' 'ochroma lagopus'
+ 'ipomoea sp' 'heliocarpus appendiculatus' 'luehea seemannii'
+ 'ochroma pyramidale']"
+lirimiris sp,['hampea appendiculata' 'cordia alliodora' 'ochroma pyramidale']
+lirimiris truncata,['cordia alliodora']
+lophocampa annulosa,['aegiphila falcata']
+lophocampa sp,['ipomoea philomega']
+loxophobia nr imitata,"['paullinia pinnata' 'paullinia sp' 'paullinia serjaniifolia' 'cupania sp'
+ 'ocotea macropoda']"
+loxophobia nr. imitata,['pullinia sp']
+lycaeides sp,['zygia longifolia']
+lycorea cleobaea atergatis,"['jacaratia sp' 'prestonia sp' 'carica papaya' nan 'ficus insipida'
+ 'neea sp']"
+macroneme iole,['fischeria panamensis' 'heliconia sp']
+macroneme nr caerulescens,['mesechites trifida' 'fischeria panamensis' 'erythrina bilya']
+macroneme semiviridis,['fischeria panamensis']
+macroneme sp,['fischeria panamensis' nan]
+malocampa hibridis,['myriocarpa longipes']
+malocampa nr matralis,['brosimum sp']
+malocampa punctata,['ficus colubrinae']
+malocampa sida,[nan 'trophis racemosa']
+malocampa sp,['sapium glandulosum']
+manduca corralina,['cordia alliodora' 'cestrum microcalyx']
+manduca florestan,['mussatia sp' nan 'costus malortieanus' 'cassia sp' 'solanum sp']
+manduca occulta,['solanum rugosum' 'solanum rudepannum' 'solanum sp']
+manduca pellenia,['cestrum sp' 'solanum sp' nan]
+manduca sexta,['hamelia patens']
+manduca sp,"['aegiphila falcata' 'solanum heteroclitum' 'solanum rugosum' nan
+ 'sabicea sp' 'piper auritum' 'solanum sp' 'aegiphila sp'
+ 'cymbopetalum torulosum' 'cestrum sp' 'annona mucosa'
+ 'cestrum microcalyx' 'forsteronia myriantha']"
+marpesia berania,['brosimum lactescens' 'ficus sp' 'naucleopsis naga' 'brosimum alicastrum']
+marpesia chiron,['brosimum lactescens']
+marpesia merops,['naucleopsis naga' 'piper reticulatum']
+marpesia petreus,['passiflora vitifolia' 'naucleopsis naga' nan 'ficus colubrinae']
+marpesia sp,['brosimum lactescens' 'naucleopsis naga']
+mechanitis polymnia isthmia,"['solanum adhaerens' 'solanum siparunoides' 'solanum rudepannum' 'inga sp'
+ 'solanum rugosum' 'passiflora vitifolia' 'solanum argenteum'
+ 'solanum lanceifolium' 'solanum sp']"
+megalopyge albicollis,"[nan 'ampelocera macrocarpa' 'heliconia sp' 'miconia sp' 'anthurium sp'
+ 'costus laevis' 'piper auritum' 'hyeronima alchorneoides'
+ 'pentaclethra macroloba' 'vernonanthura patens' 'sabicea villosa'
+ 'inga oerstediana' 'nectandra reticulata' 'inga sp']"
+megalopyge sp,"['miconia affinis' 'hyeronima alchorneoides' 'arrabidaea sp'
+ 'piper colonense']"
+megathecla cupentus,['cedrela odorata']
+megathymus sp,['welfia regia']
+megeuptychia antonoe,['calathea sp' nan 'ipomoea sp' 'calathea crotalifera' 'calathea lutea']
+megeuptychia sp,['calathea sp']
+melese asana,['aegiphila falcata']
+melese flavipuncta,[nan 'ipomoea sp' 'vismia sp' 'inga sp' 'aegiphila falcata']
+melese nr incertus,['theobroma cacao']
+melese sixola,"['pithecellobium longifolium' 'urera caracasana' 'piper urostachyum'
+ 'miconia sp' 'inga sp']"
+melese sp,"['mikania sp' 'vernonanthura patens' 'inga alba' 'miconia sp'
+ 'theobroma cacao']"
+melinaea ethra lilis,['merinthopodium neuranthum' 'cyphomandra hartwegii']
+melisidora nr cyclozonata,['piper hispidum']
+memphis artacaena,['croton schiedeanus']
+memphis cleomestra,['piper multiplinervium' 'piper reticulatum' 'piper colonense']
+memphis laura,['croton sp']
+memphis pithyusa,[nan 'croton sp' 'croton schiedeanus']
+memphis sp,"['piper reticulatum' 'lacistema aggregatum' 'piper multiplinervium'
+ 'piper garagaranum' 'piper sp' 'calathea sp' 'croton sp' 'ocotea cernua']"
+menander menander,['clusia sp' nan]
+merotoma sp,"['cissus sp' 'piper colonense' 'piper hispidum' 'heliconia sp' nan
+ 'phytolacca rivinoides' 'clibadium sp' 'hamelia patens'
+ 'acacia tenuifolia' 'cecropia obtusifolia' 'odontonema tubaeforme']"
+mesoesmia lamachus,['psychotria chiapensis' 'psychotria sp']
+mesosemia asa,['notopleura anomothyrsa' 'notopleura capitata']
+mesosemia carissima,['psychotria sp']
+micothyris sp,['ipomoea sp']
+microgonia occiduta,['spondias sp']
+microgonia rhodaria,['piper auritum']
+microthyris sp,['ipomoea sp']
+milanion sp,"['rollinia sp' 'unonopsis pittieri' nan 'unonopsis sp' 'rollinia pittieri'
+ 'rollinia mucosa' 'annona papilionella']"
+molo mango,[nan]
+morpho amantote,[nan 'pterocarpus officinalis']
+morpho granadensis polybaptus,['erythrina sp' 'pterocarpus officinalis']
+morpho peleides limpida,['heliconia sp' 'pterocarpus sp' nan 'lonchocarpus sp']
+morpho sp,['inga edulis' 'pterocarpus sp']
+myscelia cyaniris cyaniris,['dichapetalum stipulatum' 'ficus insipida' 'adelia triloba']
+myscelia sp,['adelia triloba']
+myscelus amystis,"['guarea sp' nan 'hampea appendiculata' 'garcinia sp' 'capparis discolor'
+ 'guarea rhopalocarpa' 'trichilia pallida' 'guarea grandifolia']"
+napata albiplaga,[nan 'davilla nitida' 'panicum sp']
+nascus paulliniae,['inga sp']
+nascus sp,['rinorea deflexiflora' nan 'lonchocarpus heptaphyllus']
+natada lalogamezi,['paullinia sp']
+nematocampa completa,['aegiphila falcata' 'aegiphila sp' 'inga sp']
+nematocampa sp,['aegiphila sp']
+neoxeniades molien,"['calathea sp' 'calathea marantifolia' 'canna tuerckheimii'
+ 'pleiostachya pruinosa']"
+nessaea aglaura aglaura,"['gouania lupuloides' 'dalechampia sp' 'plukenetia stipellata'
+ 'mikania sp' 'plukenetia sp']"
+nessaea sp,['alchornea costaricensis']
+nica canthara,['serjania sp']
+nica flavilla canthara,['paullinia sp']
+nicetas sp,[nan 'byttneria aculeata']
+nisoniades godma,"['solanum adhaerens' 'lycianthes synanthera' 'solanum rugosum'
+ 'solanum rudepannum' 'calathea marantifolia']"
+norape sp,['pithecellobium longifolium' 'senna fruticosa' 'odontonema tubaeforme']
+nyceryx magna,['pentagonia donnell-smithii']
+nymphalome sp,[nan]
+nystalea ebalea,['spondias sp']
+nystalea marona,['garcinia intermedia']
+nystalea ocellata,['spondias sp']
+nystalea sp,['spondias sp' 'spondias mombin']
+nystalea virgula,['alchornea costaricensis']
+oenoptila separata,[nan]
+olceclostera nr bifenestrada,"['aegiphila falcata' 'cecropia obtusifolia' 'mussatia sp' 'mendoncia sp'
+ nan 'philodendron sp' 'garcinia sp' 'solanum sp']"
+olceclostera sp,"[nan 'aegiphila falcata' 'miconia sp' 'cordia alliodora' 'hamelia patens'
+ 'solanum sp']"
+omiodes sp,"['solanum siparunoides' 'solanum rugosum' 'dichapetalum stipulatum'
+ 'inga sp' 'rinorea deflexiflora' nan 'piper colonense'
+ 'dichapetalum axillare' 'pentagonia donnell-smithii' 'inga cocleensis'
+ 'odontonema tubaeforme' 'acalypha sp']"
+oospila nr nigripuncta,[nan]
+opharus consimilis,['myriocarpa longipes']
+opisthoxia cluan,['ardisia nigropunctata']
+opsiphanes cassina,['heliconia sp' 'welfia regia' 'calyptrogyne ghiesbreghtiana']
+opsiphanes sp,[nan 'heliconia sp' 'asterogyne martiana' 'calyptrogyne ghiesbreghtiana']
+opsiphanes tamarindi,"[nan 'musa sp' 'heliconia sp' 'bactris sp' 'musa velutina'
+ 'heliconia imbricata']"
+oraesia nobilis,['cissampelos sp' 'cissampelos pareira' 'cissampelos andromorpha']
+oraesia nr aenofusa,['cissampelos sp' 'psychotria sp' 'cissampelos grandifolia']
+oryba kadeni,[nan]
+oxydia apidania,['piper auritum' 'hyeronima alchorneoides']
+oxydia sp,"['phytolacca rivinoides' 'aegiphila falcata' 'piper urostachyum'
+ 'solanum rudepannum']"
+oxytenis beprea,[nan 'randia sp']
+oxytenis modestia,['posoqueria sp']
+oxytenis sp,"['pentagonia donnell-smithii' nan 'warszewiczia coccinea'
+ 'posoqueria panamensis']"
+oxytenis sp 2,['randia sp']
+paches sp,['byttneria aculeata']
+pachydota albiceps,['nectandra hypoleuca']
+pachydota sp,"['ocotea sp' nan 'nectandra reticulata' 'nectandra membranaceae'
+ 'neea laetevirens']"
+pachylia ficus,"['castilla elastica' 'brosimum lactescens' 'ficus colubrinae'
+ 'ficus insipida' 'psychotria psychotrifolia' 'ficus sp' nan
+ 'cecropia obtusifolia' 'ficus benjamin']"
+pachylia sp,['brosimum lactescens' 'ficus colubrinae']
+pachylia syces,"['ficus colubrinae' 'ficus insipida' 'castilla elastica'
+ 'brosimum alicastrum' 'ficus sp' nan]"
+pachyliodes resumens,[nan]
+palpita sp,"['guatteria diospyroides' nan 'cyclanthus bipartitus'
+ 'pentagonia donnell-smithii']"
+panthiades bitias,[nan 'lonchocarpus sp']
+panthiades sp,[nan]
+pantographa expansalis,"['myriocarpa longipes' 'psychotria sp' 'pithecellobium longifolium'
+ 'laportea aestuans' nan 'hampea appendiculata' 'urera eggersii'
+ 'apeiba membranaceae' 'protium sp' 'goethalsia meiantha']"
+pantographa sp,['myriocarpa longipes' 'mireocarpa longipes']
+pantographa suffusalis,"['hampea appendiculata' 'rollinia sp' 'theobroma cacao' nan 'croton sp'
+ 'odontonema tubaeforme' 'croton panamensis' 'vernonanthura patens'
+ 'piper sp' 'myriocarpa longipes' 'psychotria chiapensis']"
+papilio anchisiades,['aristolochia sprucei']
+papilio anchisiades ideaus,['zanthoxylum sp']
+papilio birchalli,['hernandia stenura']
+papilio birchalli godmani,['hernandia stenura' nan]
+papilio cresphontes,"['piper auritum' 'ochroma lagopus' 'piper hispidum' 'piper sp'
+ 'piper multiplinervium' 'piper peltatum']"
+papilio sp,"[nan 'piper peltatum' 'aristolochia sp' 'piper multiplinervium'
+ 'hernandia sp' 'aristolochia sprucei' 'piper auritum' 'piper colonense']"
+papilio thoas,['manekia incurva' 'piper auritum']
+papilio thoas neacles,"[nan 'piper peltatum' 'piper sp' 'piper auritum' 'piper multiplinervium'
+ 'piper holdridgeanum' 'piper colonense' 'citrus sp' 'piper hispidum']"
+paragonia cruraria,['aegiphila falcata' 'cissampelos sp']
+paragonia nr cruraria,['cedrela odorata']
+paragonia procidaria,['piper auritum']
+paragonia sp,['aegiphila falcata']
+paragonia tasima,['piper auritum']
+parasa sandra,['piper sp' 'ocotea sp']
+parasa viridogrisea,[nan]
+parebella macleannani,['myrcia sp']
+parides arcas mylotes,['aristolochia sp' nan 'aristolochia sprucei']
+parides childrenae childrenae,[nan]
+parides erithalion sadyattes,['aristolochia sp' 'aristolochia constricta' 'aristolochia sprucei']
+parides iphidamas iphidamas,['aristolochia sp']
+parides milotes,['aristolochia sprucei']
+parides sp,[nan 'aristolochia sp']
+pellicia arina,['hyeronima alchorneoides' 'virola sebifera']
+pellicia dimidiata,['ipomoea squamosa']
+perichares philetes,[nan 'asterogyne martiana']
+pericopis sp,"['piptocarpha poeppigiana' 'vernonanthura patens' 'miconia sp' 'costus sp'
+ 'mikania sp']"
+periga cluacina,['ryania speciosa']
+periphoba arcaei,"['miconia multispicata' 'theobroma cacao' 'myriocarpa longipes' nan
+ 'pleiostachya pruinosa' 'virola sebifera' 'psychotria sp'
+ 'persea americana']"
+periphoba sp,['struthanthus aff woodsonii' 'heliconia sp' 'acalypha diversifolia']
+pero dularia,['solanum sp' 'cestrum racemosum']
+pero sp,"['pentaclethra macroloba' 'solanum sp' 'solanum rugosum'
+ 'colubrina spinosa' 'nectandra reticulata']"
+phaeoblemma dares,"[nan 'senna fruticosa' 'senna papillosa' 'aegiphila falcata'
+ 'cassia senna' 'senna sp']"
+phanoptis cyanomelas,[nan 'rinorea deflexiflora' 'gloeospermum boreale']
+phanus sp,['inga alba' 'pithecellobium longifolium' 'musa sp']
+philaethria dido,['passiflora vitifolia' 'passiflora ambigua']
+phobetron hipparchia,"['hyeronima alchorneoides' 'chamaesyce hyssopifolia' 'mikania sp'
+ 'cestrum racemosum']"
+phoebis argante,"['senna fruticosa' 'pithecellobium longifolium' 'inga alba' nan
+ 'pentaclethra macroloba' 'senna papillosa' 'inga sp']"
+phoebis philea philea,['senna fruticosa' 'senna sp' 'cassia senna']
+phoebis sennae,['senna fruticosa' 'pentaclethra macroloba']
+phoebis sp,['inga sp']
+phoebis trite,['pithecellobium longifolium' 'psychotria psychotrifolia' 'inga sp']
+phoenicoprocta nr astrifera,['manihot esculenta']
+pierela sp,['heliconia sp']
+pierella helvetia incanescens,[nan]
+pierella luna luna,['calathea sp']
+pitane fervens,[nan]
+pleuroptya silicalis,"['piper auritum' 'neea psychotroides' nan 'laportea aestuans'
+ 'myriocarpa longipes' 'cecropia obtusifolia' 'neurolaena lobata'
+ 'pithecellobium longifolium' 'sabicea villosa' 'cyathula prostrata'
+ 'hampea appendiculata' 'solanum sp' 'urera eggersii']"
+plusidonta repellens,['cissampelos sp']
+polythrix sp,['arrabidaea chica']
+pompilioides aliena,['heliconia sp' 'calathea sp']
+poresta sp,['simarouba amara']
+prenesta sp,[nan]
+prepona omphale octavia,['inga sp']
+prochoerodes tetragonata,['piper multiplinervium']
+protambulyx eyrycles,['protium panamense']
+protambulyx sp,['spondias sp']
+protambulyx strigilis,['spondias sp' 'simarouba amara' 'spondias mombin' 'rollinia pittieri']
+proteides mercurius,[nan]
+protepicorsia sp,[nan 'hyptis sp' 'hamelia patens' 'piper evasum' 'piper colonense']
+pseudasellodes fenestraria,['randia sp' 'randia armata']
+pseudolycaena sp,['cedrela odorata']
+pyralidae suffusalis,['hampea appendiculata']
+pyrausta sp,['passiflora sp']
+pyrrhogyra crameri,"['paullinia pinnata' 'myriocarpa longipes' 'paullinia fibrigera'
+ 'paullinia sp']"
+pyrrhogyra neaerea hypsenor,[nan]
+pyrrhogyra otolais otolais,"['paullinia pinnata' 'paullinia serjaniifolia' 'paullinia fibrigera'
+ 'paullinia rufescens' 'serjania sp' 'paullinia sp']"
+pyrrhogyra sp,['serjania mexicana' nan 'paullinia pinnata' 'paullinia rufescens']
+pythoniades jovianus amaryllis,"[nan 'hiraea sp' 'siparuna pauciflora' 'siparuna talamancarum'
+ 'siparuna grandiflora']"
+quadrus cerialis,"['piper sp' 'piper auritum' nan 'piper reticulatum' 'piper colonense'
+ 'piper hispidum' 'piper multiplinervium' 'piper urostachyum'
+ 'piper garagaranum' 'piper holdridgeanum' 'ipomoea sp' 'piper peltatum'
+ 'piper cenocladum' 'piper generalense' 'piper melanocladum'
+ 'piper tonduzii' 'piper glabrescens' 'piper biseriatum' 'sarcorhachis sp'
+ 'piper pseudobumbratum' 'piper imperiale' 'piper umbricola'
+ 'piper xanthostachyum' 'piper arboreum' 'piper darianense'
+ 'piper sancti-felicis' 'piper terrabanum' 'piper marginatum'
+ 'piper peracuminatum' 'piper arcteacuminatum' 'piper anodadum'
+ 'manekia sp' 'menequia incurva' 'piper trigonum']"
+quadrus contubernalis,['piper reticulatum']
+quadrus sp,"['piper colonense' 'piper imperiale' 'solanum rugosum' nan 'piper auritum'
+ 'piper urostachyum' 'piper sp' 'siparuna sp' 'piper reticulatum'
+ 'piper multiplinervium']"
+quentalia chromana,['philodendron sp' 'dendropanax arboreus' 'trophis racemosa']
+quentalia nr veca,[nan]
+quentalia sp,[nan 'trophis racemosa' 'castilla elastica' 'inga sp']
+quentalia sp 1,['castilla elastica' nan]
+quentalia sp 2,"['castilla elastica' nan 'cordia alliodora' 'ficus colubrinae'
+ 'ficus insipida' 'trophis racemosa']"
+quentalia sp 3,['ficus colubrinae' 'philodendron sp' 'castilla elastica']
+radara nr nealcesalis,"['cissampelos sp' 'ipomoea sp' 'cissampelos tropaeolifolia'
+ 'cissampelos andromorpha']"
+radara nr. nealcesalis,['cissampelos andromorpha']
+rhescyntis hippodamia,['virola sp' 'virola koschnyi']
+rifargia distinguenda,['protium panamense']
+ropela sp,['vitex cooperi']
+rosema deolis,['pithecellobium longifolium' nan]
+rosema sp,['pithecellobium longifolium']
+rosema tinae,['pithecellobium longifolium' 'zygia longifolia']
+rothschildia lebeau,['neurolaena lobata' 'cestrum racemosum']
+rothschildia triloba,"[nan 'casearia arborea' 'vernonanthura patens' 'lacistema aggregatum'
+ 'casearia sp' 'hyeronima alchorneoides' 'unonopsis pittieri'
+ 'dendropanax stenodontus' 'cestrum racemosum' 'spondias sp'
+ 'guatteria diospyroides']"
+saliana sp,['calathea sp' 'heliconia sp' 'stromanthe palustris']
+saliana sp 1,"['musa sp' nan 'costus scaber' 'calathea sp' 'calathea marantifolia'
+ 'costus sp' 'renealmia costaricensis']"
+saliana sp 2,['costus sp' 'heliconia sp']
+saliana sp 3,['calathea sp']
+salianas sp,"['musa velutina' 'heliconia sp' 'calathea crotalifera'
+ 'goeppertia donnell-smithii']"
+sarota gyas,[nan]
+sarota sp,"['psychotria chiapensis' nan 'epiphyllum sp' 'zygia longifolia'
+ 'heliconia sp']"
+saurita cassandra,[nan]
+saurita incerta,['mikania sp']
+saurita nigripalpa,[nan 'mikania sp']
+schizura sp,['ficus colubrinae' 'miconia sp']
+scotura leucophleps,['rinorea deflexiflora' nan 'rinorea sp']
+semaeopus nodigera,['virola sebifera' 'virola sp' 'acalypha diversifolia']
+sematura luna,['pithecellobium longifolium' 'pentaclethra macroloba']
+simplosa sp,['aegiphila falcata']
+siproeta epaphus epaphus,[nan]
+siproeta sp,[nan]
+sphacelodes nr quadrilineata,['gouania lupuloides']
+sphecalodes vulneraria,[nan]
+spilosoma sp,[nan]
+spodoptera dolichos,"['hamelia patens' 'piper peltatum' 'vernonanthura patens' 'piper auritum'
+ 'aegiphila sp' 'piper sp' 'cestrum sp' 'mikania sp' 'solanum sp'
+ 'solanum rugosum' 'phytolacca rivinoides' 'cissampelos sp'
+ 'pterocarpus officinalis' 'smilax sp' 'cestrum racemosum'
+ 'aegiphila falcata' 'pharus sp' 'neurolaena lobata'
+ 'hyeronima alchorneoides']"
+spodoptera eridania,"[nan 'piper auritum' 'piper peltatum' 'tripogandra serrulata'
+ 'ocotea caracasana' 'phytolacca rivinoides']"
+spodoptera sp,"['phytolacca rivinoides' 'solanum rugosum' 'neurolaena lobata'
+ 'hyeronima alchorneoides' 'colubrina spinosa' 'vernonanthura patens'
+ 'ipomoea sp' 'piper peltatum' 'solanum adhaerens' nan 'piper auritum'
+ 'erechtites hieracifolia' 'cestrum racemosum' 'arrabidaea sp'
+ 'sida rhombifolia' 'heliconia sp' 'neea psychotroides' 'cassia senna'
+ 'pterocarpus officinalis' 'iresine diffusa' 'emilia sonchifolia'
+ 'hamelia patens' 'cissus biformifolia' 'ipomoea philomega'
+ 'senna papillosa' 'erythrina gibbosa' 'piper cenocladum' 'psychotria sp'
+ 'paspalum fasciculatum' 'aegiphila panamensis' 'ipomoea squamosa'
+ 'chamissoa altissima' 'merinthopodium neuranthum' 'notopleura sp'
+ 'geonoma sp' 'paspalum sp' 'piper urophyllum' 'unknown'
+ 'acalypha hispida' 'chrysanthemum morifolium' 'verbena hybrida'
+ 'spigelia humboldtiana']"
+staphylus sp,[nan 'cyathula prostrata']
+staphylus sp 1,"[nan 'cyathula prostrata' 'vernonanthura patens' 'solanum rudepannum'
+ 'solanum rugosum']"
+staphylus sp 2,[nan]
+stauropides sp,['cecropia obtusifolia' 'cordia alliodora']
+stenalcidia sp,[nan]
+sychesia dryas,['piptocarpha poeppigiana']
+talides nr alternata,['heliconia sp']
+talides sinoia,['calathea sp' 'aegiphila falcata']
+talides sp,"[nan 'calathea sp' 'heliconia sp' 'inga sp' 'odontonema tubaeforme'
+ 'costus laevis']"
+talides sp complex,[nan 'heliconia sp' 'calathea sp' 'musa sp' 'calathea marantifolia']
+talides sp complex 2,['calathea sp' 'heliconia sp' 'costus sp']
+tarchon felderi,"['piper auritum' nan 'piper colonense' 'psychotria chiapensis'
+ 'heliconia sp' 'philodendron sp' 'piper sp' 'piper peltatum'
+ 'pentaclethra macroloba' 'piptocarpha poeppigiana' 'aegiphila falcata'
+ 'piper hispidum' 'welfia regia' 'myriocarpa longipes'
+ 'stigmaphyllon lindenianum' 'heliocarpus appendiculatus'
+ 'chamaedorea tepejilote' 'theobroma cacao' 'passiflora sp'
+ 'neea psychotroides' 'selaginella sp' 'inga sp' 'witheringia sp'
+ 'rinorea deflexiflora' 'byttneria aculeata' 'cyphomandra hartwegii'
+ 'ipomoea sp' 'cestrum racemosum' 'neea sp' 'socratea exorrhiza'
+ 'piper biolleyi' 'tabebuia chrysantha' 'hamelia patens'
+ 'piper urostachyum' 'dicranostyles ampla' 'solanum rugosum'
+ 'piper biseriatum' 'alchornea costaricensis' 'hampea appendiculata'
+ 'colubrina spinosa' 'cedrela odorata' 'cyclanthus bipartitus'
+ 'paspalum sp' 'carluduvica rotundifolia' 'vernonanthura patens'
+ 'piper multiplinervium' 'anthurium pentaphyllum' 'chamaedorea sp'
+ 'laportea aestuans' 'neea laetevirens' 'acalypha costaricensis'
+ 'erythrina gibbosa' 'passiflora vitifolia' 'nectandra reticulata'
+ 'piper generalense' 'callichlamys latifolia' 'warszewiczia coccinea']"
+telemiades nr antiope,['inga sp' 'inga sapindoides' 'inga edulis' 'inga umbellifera']
+telemiades sp,['inga sp']
+telemiades sp 1,['inga sp']
+telemiades sp 3,['pithecellobium longifolium']
+telima sp,[nan]
+telles arcalaus,['heliconia sp']
+temenis laothoe agatha,['paullinia pinnata' 'paullinia sp' 'serjania sp' 'serjania mexicana']
+temenis sp,['paullinia pinnata' 'paullinia sp' 'serjania mexicana' 'serjania sp' nan]
+terenthina bradyae,['herrania purpurea']
+thagona tibialis,[nan]
+thecla barajo,['mikania guaco']
+theritas hemon,[nan]
+theritas lisus,[nan]
+theritas mavors,['miconia sp' 'conostegia subcrustulata']
+thracides phidon,[nan 'heliconia sp']
+thracides sp,['heliconia sp']
+thyridia psidii melantho,['cyphomandra hartwegii' 'solanum hardtwegii']
+thyrinteinia arnobia,['hyeronima alchorneoides']
+thysanopyga carfinia,"['gouania lupuloides' 'colubrina spinosa' 'cedrela odorata'
+ 'gouania polygama']"
+thysanopyga nicetaria,['gouania lupuloides']
+tigridia acesta,"['cecropia obtusifolia' 'pourouma sp' 'coussapoa nymphaeifolia'
+ 'pourouma bicolor' nan 'paullinia fibrigera' 'cecropia sp'
+ 'lonchocarpus sp']"
+tigridia sp,['pourouma sp']
+tithorea tarricina pinthias,['prestonia portobellensis']
+tithraustes lambertae,['geonoma sp' 'calyptrogyne ghiesbreghtiana' nan]
+tithraustes salvini,[nan]
+tortyra cuprinela,['brosimum lactescens' 'myriocarpa longipes' nan 'maquira guianensis']
+tortyra sp,['nectandra membranaceae' 'myriocarpa longipes']
+tromba xanthura,[nan 'geonoma sp' 'chamaedorea sp']
+tueresis sp,['pharus latifolius']
+turesis complanula,[nan 'pharus sp']
+turesis sp,['erythrina sp' nan 'pharus latifolius']
+udranomia sp,[nan]
+urbanus belli,[nan 'clibadium surinamense']
+urbanus nr pronus,[nan 'aristolochia sp' 'clibadium surinamense' 'vigna caracalla']
+urbanus sp,['erythrina sp' nan 'senna sp' 'paragonia pyramidata']
+vertica sp,['chamaedorea sp']
+vertica subrufescens,['bactris sp']
+vinius phellus,['annona sp']
+xanthopastis sp,['crinum erubescens']
+xanthopastis timais,['crinum erubescens']
+xeniades orchamus,['chusquea simpliciflora']
+xeniades sp,['mucuna holtonii']
+xilophanes porcus,['hamelia patens']
+xylophanes anubus,"['psychotria chiapensis' 'erythrina sp' 'psychotria psychotrifolia'
+ 'hamelia patens']"
+xylophanes ceratomiodes,['hamelia patens']
+xylophanes chiron,"['hamelia patens' 'psychotria chiapensis' 'aegiphila falcata'
+ 'psychotria sp' 'psychotria eurycarpa' 'ficus colubrinae'
+ 'psychotria graciliflora']"
+xylophanes loelia,['spermacoce ocymifolia']
+xylophanes pluto,"['hamelia patens' 'stigmaphyllon lindenianum' nan 'ficus colubrinae'
+ 'hampea appendiculata' 'psychotria chiapensis' 'psychotria sp']"
+xylophanes porcus,"['hamelia patens' 'witheringia asterotricha' nan 'psychotria hebeclada'
+ 'psychotria chiapensis' 'psychotria sp' 'psychotria brachiata']"
+xylophanes sp,"['hamelia patens' 'psychotria sp' 'psychotria chiapensis'
+ 'psychotria euryphyllum' 'palicourea sp']"
+xylophanes tersa,[nan 'hamelia patens' 'spermacoce ocymifolia']
+yanguna sp,['piper reticulatum']
+zanola nr impedita,"['hamelia patens' 'zygia longifolia' 'tournefortia glabra'
+ 'heliocarpus appendiculatus']"
+zanola verago,"['hamelia patens' 'heliocarpus appendiculatus' 'dalechampia sp'
+ 'solanum rugosum' nan 'witheringia asterotricha' 'iresine diffusa'
+ 'phytolacca rivinoides' 'cissus sp' 'aegiphila falcata']"
+zaretis itys,"['laetia procera' 'casearia sp' 'casearia arborea' nan
+ 'phytolacca rivinoides' 'casearia corymbosa' 'piper hispidum']"
+zera hyacinthinus,['ipomoea sp' 'sterculia recordiana' nan 'nectandra membranaceae']
+zera sp,['odontonema tubaeforme']
+zolessia felderi,['stromanthe palustris']
+zunacetha annulata,['genipa americana']
+zunacetha sp,['philodendron sp' 'genipa sp']
+zunacetha sp 2,['calathea sp']
