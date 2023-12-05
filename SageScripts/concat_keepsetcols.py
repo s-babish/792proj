@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import sys
 import pandas as pd
+import numpy as np
 
 concat_df = pd.DataFrame()
 
@@ -13,6 +14,9 @@ for file in sys.argv[2:fileend]:
 out_df=pd.DataFrame()
 for col in sys.argv[fileend:]:
     out_df = pd.concat([out_df,concat_df[col]],axis=1)
+    
+out_df[sys.argv[fileend]]=out_df[sys.argv[fileend]].replace('[^\d\.]',np.nan,regex=True)
 
-out_df.dropna(subset=[sys.argv[fileend]], inplace=True)
+out_df.dropna(subset=[sys.argv[fileend],sys.argv[fileend+1]], inplace = True)
+
 out_df.to_csv("concatenatedcols.csv",index=False)
