@@ -16,7 +16,9 @@ I needed two different sets of information from these data sets. First, which sp
 
 ##### Part 1: Catalog Searches
 
-extract_couchii.py
+My first steps for this project were parsing through several specimen collection catalogs and extracting specimens based on increasingly specific qualifications. The first qualification was pulling out all the specimens that were *Th. couchii*, which I did with this script:
+
+###### extract_couchii.py
 
 ``` python
 #!/usr/bin/env python3
