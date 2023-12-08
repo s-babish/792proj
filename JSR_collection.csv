@@ -1,0 +1,125 @@
+ID,species,locality,county,sex,capture_date,lab_entry_date,SVL(mm)_at_lab_entry,mass(g)_at_lab_entry,mass(g)_14Oct2017,SVL(mm)_16April2018,mass(g)_16April2018,SVL(mm)_before_muscle_exp,mass(g)_before_muscle_exp,food_type,Ivermectin_treatment,Notes,50%MAMU,genotype
+"""Sneaky 2""",Charina botae,,,-,,,,,,21,6,,,,,,,
+"""Sneaky""",Charina botae,,,-,,,,,,40,41,,,,,,,
+CRF,Charina bottae,Ash Canyon,NV,-,,27-Feb-17,,27,,,,,,mice,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+CRF2393,Thamnophis elegans,McCullough Ranch,Sonoma,F,,12-May-13,,,,77.5,255,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,Socialized,,
+CRF2509,Charina bottae,Lily Lake,El Dorado,-,,27-Jun-14,,90,,-,-,,,mice,12-JULY-2017/27-JULY-2017/10-AUG-2017,FOUND DEAD 14-DEC-2017,,
+CRF2980,Coluber constrictor,,Yolo,-,,21-Apr-16,,,,63.5,93,,,mice,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+CRF2981,Coluber constrictor,,Yolo,-,,21-Apr-16,,,,40,24,,,pinkies,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+CRF2986,Thamnophis elegans,,Gilroy,F,,26-Apr-16,,,,69,201,,,mice/trout,12-JULY-2017/27-JULY-2017/10-AUG-2017,Socialized,,
+CRF3062,Thamnophis couchii,Willard Creek,Lassen,F,,18-Jul-16,,18.3,,64,148,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,7.6,
+CRF3063,Thamnophis couchii,Cherry Creek,Tuolumne,F,,,,96.4,,58,121,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,17.9,
+CRF3067,Thamnophis couchii,Cherry Creek,Tuolumne,F,,24-Aug-16,,44.3,,47,42,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,29,
+CRF3150,Coluber constrictor,West Sacramento,Yolo,-,,25-May-17,,,,33,16,,,crickets,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+CRF3151,Charina bottae,Steamboat Ditch,"Washoe, NV",M,,19-Apr-17,,39,,37.5,30,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+CRF3152,Pituophis catenifer,Girl Farm,Sierra,-,,8-May-17,800,150,,86,197,,,mice,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+CRF3155,Coluber constrictor,Reno,"Washoe, NV",-,,29-May-17,600,93,,58.5,59,,,mice,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+CRF3171,Pituophis catenifer,Long Valley,Sierra,-,,3-Jun-17,,,,60,100,,,mice,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+CRF3184,Thamnophis sirtalis,Watson Lake,Placer,F,,20-Jul-17,600,84,,60,84,,,,20-JULY-2017/3-AUG-2017/17-AUG-2017,WATCH,,
+CRF3185,Thamnophis sirtalis,Watson Lake,Placer,F,,20-Jul-17,650,82,,60,85,,,,20-JULY-2017/3-AUG-2017/17-AUG-2017,,,
+CRF3186,Thamnophis sirtalis,Watson Lake,Placer,F,,20-Jul-17,500,71,,54,81,,,,20-JULY-2017/3-AUG-2017/17-AUG-2017,,,
+CRF3187,Thamnophis sirtalis,Watson Lake,Placer,M,,20-Jul-17,400,22,,39,17,,,,20-JULY-2017/3-AUG-2017/17-AUG-2017,,,
+CRF3188,Thamnophis elegans,Watson Lake,Placer,F,,20-Jul-17,500,85,,53.5,75,,,,20-JULY-2017/3-AUG-2017/17-AUG-2017,gave birth to six neonates on 10-OCT-2017; WATCH,,
+CRF3189,Thamnophis elegans,Watson Lake,Placer,M,,20-Jul-17,380,27,24,-,-,,,,20-JULY-2017/3-AUG-2017/17-AUG-2017,taken for muscle exp 4-Mar,,
+CRF3190,Thamnophis elegans,Watson Lake,Placer,F,,20-Jul-17,370,21,19,38,21,,,,20-JULY-2017/3-AUG-2017/17-AUG-2017,,,
+CRF3211,Thamnophis couchii,Sotcher Lake,Madera,F,,6-Aug-17,580,63,,56,45,,,,7-AUG-2017/22-AUG-2017/4-SEPT-2017,,,
+CRF3212,Coluber constrictor,Rocky Point Rd.,Plumas,-,,14-Aug-17,,,,29,13,,,,14-AUG-2017/29-SEPT-2017/16-SEPT-2017,,,
+CRF3215,Thamnophis sirtalis ,Deep Creek,Fresno,F,,19-Aug-17,,14,,38.25,22,,,,19-AUG-2017/2-SEPT-2017/16-SEPT-2017,,,
+CRF3216,Thamnophis couchii,Deep Creek,Fresno,F,,19-Aug-17,220,5,,-,-,,,,19-AUG-2017/2-SEPT-2017/16-SEPT-2017,DIED 16-DEC-2017,,
+CRF3217,Thamnophis couchii,Deep Creek,Fresno,F,,19-Aug-17,,187,,76.5,156,,,,19-AUG-2017/2-SEPT-2017/16-SEPT-2017,,,
+CRF3220,Thamnophis couchii,"Kibbie Ridge, above Cherry Creek",Tuolumne ,F,,29-Aug-17,,,,53.5,63,,,,29-AUG-2017/12-SEPT-2017/25-SEPT-2017,,,
+CRF3221,Thamnophis couchii,"Kibbie Ridge, above Cherry Creek",Tuolumne ,F,,29-Aug-17,,,,47.5,32,,,,29-AUG-2017/12-SEPT-2017/25-SEPT-2017,,,
+CRF3269,Diadophis punctatus,,,-,,,,,,28.5,6,,,,16-Apr-18,,,
+CRF3273,Coluber constrictor,,,-,,,,,,46.5,33,,,,16-Apr-18,,,
+CRF3274,Coluber constrictor,,,-,,,,,,45,33,,,,16-Apr-18,,,
+CRF3275,Thamnophis sirtalis,Knoxville,Napa,F,,,,,,44,45,,,,16-Apr-18,,,
+CRF3293,Thamnophis couchii,N. F. Mokelumne River,Calaveras,F,26-May-18,27-May-18,,,,,,,,,,,,
+CRF3294,Thamnophis sirtalis,S. F. Mokelumne River,Calaveras,M,26-May-18,27-May-18,,,,,,,,,,,,
+CRF3306,Thamnophis couchii,"Kibbie Ridge, above Cherry Creek",Tuolomne,F,13-Jun-18,15-Jun-18,53,48,,,,,,,,,,
+CRF3307,Thamnophis couchii,"Kibbie Ridge, above Cherry Creek",Tuolomne,F,13-Jun-18,15-Jun-18,53,52,,,,,,,,,,
+CRF3308,Thamnophis couchii,"Kibbie Ridge, above Cherry Creek",Tuolomne,F,13-Jun-18,15-Jun-18,55,58,,,,,,,,,,
+CRF3309,Thamnophis couchii,West Walker River,Mono,F,14-Jun-18,15-Jun-18,44,28,,,,,,,,,,
+CRF3311,Thamnophis sirtalis,Tamarack Lake,Sierra,m,3_july_2018,6_July_2018,,9,,,,,,,,,,
+CRF3312,Thamnophis couchii,Tamarack Lake,Sierra,m?,3_July_2018,6_July_2018,400,35,,,,,,,,,,
+EE_Unk,Thamnophis hammondii,Boulder Creek,San Diego,-,,27-Jul-17,,,,-,-,,,,27-JULY-2017/10-AUG-2017/24-AUG-2017,DIED SEPT-2017 - NEONATE,,
+EE2017.1,Thamnophis hammondii,Boulder Creek,San Diego,F,,27-Jul-17,,,,47.5,57,,,mice in water,27-JULY-2017/10-AUG-2017/24-AUG-2017,,,
+EE2017.2,Thamnophis hammondii,Boulder Creek,San Diego,F,,27-Jul-17,,,,51,103,,,mice in water,27-JULY-2017/10-AUG-2017/24-AUG-2017,,,
+EE2017.3,Thamnophis hammondii,Boulder Creek,San Diego,F,,27-Jul-17,,,,53,71,,,mice in water,27-JULY-2017/10-AUG-2017/24-AUG-2017,,,
+EE2017.4,Thamnophis hammondii,Boulder Creek,San Diego,M,,27-Jul-17,,,,37,30,,,trout,27-JULY-2017/10-AUG-2017/24-AUG-2017,,,
+EJE143,Thamnophis couchii,Prairie Creek,Nevada,F,,1-Aug-16,580,57.8,,58.25,105,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,2.88,
+EJE161,Thamnophis couchii,Jackson Meadow Reservoir,Nevada,,,,,13,,,,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+EJE162,Thamnophis couchii,Jackson Meadow Reservoir,Nevada,F,,1-Aug-16,420,21.3,,50.5,59,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,2.13,
+EJE163,Thamnophis couchii,Jackson Meadow Reservoir,Nevada,M,,1-Aug-16,530,49,,52,67,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,3.7,
+EJE164,Thamnophis couchii,Carr Lake,Nevada,M,,1-Aug-16,500,41,,47.25,54,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,3.1,
+EJE165,Thamnophis couchii,Canyon Creek,Nevada,F,,1-Aug-16,610,32.6,,60.5,110,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,3.65,
+EJE166,Thamnophis couchii,Canyon Creek,Nevada,M,,1-Aug-16,,9.5,,31.5,18,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,10,
+EJE169,Thamnophis couchii,Canyon Creek,Nevada,M,,1-Aug-16,,14.8,,40.5,33,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,8.34,
+EJE171,Thamnophis couchii,Canyon Creek,Nevada,F,,1-Aug-16,,,,46,55,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+EJE174,Thamnophis couchii,Milton Reservoir,Nevada,F,,1-Aug-16,,21.7,,52,61,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,3.21,
+EJE177,Thamnophis couchii,Milton Reservoir,Nevada,F,,1-Aug-16,,16.6,,50,45,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,6,
+EJE179,Thamnophis couchii,Jackson Meadows Reservoir,Sierra,F,,1-Aug-16,,9.4,,34.5,18,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,25,
+EJE181,Thamnophis couchii,S. Fork Tuolumne River,Tuolumne,F,,1-Aug-16,,9.3,,27,10,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,35,
+EJE184,Thamnophis couchii,S. Fork Tuolumne River,Tuolumne,F,,1-Aug-16,,,,31,21,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+EJE187,Thamnophis couchii,S. Fork Tuolumne River,Tuolumne,F,,1-Aug-16,,,,34.5,21,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+EJE188,Thamnophis couchii,S. Fork Tuolumne River,Tuolumne,F,,1-Aug-16,,,,35,21,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+EJE218,Thamnophis elegans,Summit Rd,Santa Cruz,M,,8-May-17,360,19,,42.5,47,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,lump; mid-body; left side,,
+EJE219,Thamnophis elegans,Little Sulphur Creek,Napa,-,,17-May-17,400,28,,-,-,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,muscle exp March 2018,,
+EJE220,Thamnophis elegans,Little Sulphur Creek,Napa,M,,12-May-17,,,,47.5,45,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+EJE221,Thamnophis atratus,Little Sulphur Creek,Napa,M,,12-May-17,,,,44.5,45,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+EJE229,Thamnophis atratus,Mt. Hamilton,Santa Clara,-,,13-Feb-18,,,,17,4,,,,13-FEB-2018/27-FEB-2018/13-MAR-2018,DIED 2-MAY-2018; neonate - did not eat well,,
+GB,Pituophis catenifer,Reno,"Washoe, NV",-,,27-May-17,900,273,,90,237,,,mice,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,
+Hague17.01,Thamnophis sirtalis,Hopland,Mendocino,F,,20-Jun-17,470,37,,48.5,41,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,>250,LVNV/LVNV
+Hague17.02,Thamnophis sirtalis,Hopland,Mendocino,F,,20-Jun-17,460,32,,45.5,34,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,>250,LVNV/LVNV
+Hague17.03,Thamnophis atratus,Hopland,Mendocino,M,,20-Jun-17,,15.3,,36.25,24,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,10.1,
+Hague17.04,Thamnophis atratus,Hopland,Mendocino,M,,20-Jun-17,470,31.7,,44.5,54,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,3.49,
+Hague17.05,Thamnophis atratus,Hopland,Mendocino,F,,20-Jun-17,550,72.3,,53,116,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,13.5,
+Hague17.06,Thamnophis atratus,Hopland,Mendocino,M,,20-Jun-17,500,49.5,,49,67,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,3.86,
+JSR001,Thamnophis elegans,Watson Lake,Placer,M,15-Aug-17,16-Aug-17,450,62,,45,37,,,,16-JULY-2017/31-AUG-2017/12-SEPT-2017,,,
+JSR002,Thamnophis elegans,Watson Lake,Placer,M,15-Aug-17,16-Aug-17,300,13,10,29,12,,,,16-JULY-2017/31-AUG-2017/12-SEPT-2017,,,
+JSR003,Thamnophis sirtalis,Watson Lake,Placer,M,15-Aug-17,16-Aug-17,450,45,,-,-,,,,16-JULY-2017/31-AUG-2017/12-SEPT-2017,DIED 6-APRIL-2018,,
+JSR004,Thamnophis sirtalis,Watson Lake,Placer,F,15-Aug-17,16-Aug-17,660,167,,67,122,,,,16-JULY-2017/31-AUG-2017/12-SEPT-2017,,,
+JSR005,Thamnophis atratus,Waddell Creek,Santa Cruz,M,,21-Aug-17,,30,,41.5,38,,,trout,21-SEPT-2017/7-OCT-2017/22-OCT-2017,,,
+JSR006,Thamnophis atratus,Waddell Creek,Santa Cruz,F,,21-Aug-17,,119,,58.5,108,,,trout,21-SEPT-2017/7-OCT-2017/22-OCT-2017,WATCH; ventral bulge,,
+JSR007,Thamnophis couchii,Pinecrest Lake ,Tuolumne ,F,,26-Aug-17,560,63,,55,52,,,,26-SEPT-2017/10-OCT-2017/25-OCT-2017,,,
+JSR008,Thamnophis couchii,Pinecrest Lake ,Tuolumne ,M,,29-Sep-17,520,40,,50,32,,,,29-SEPT-2017/14-OCT-2017/31-OCT-2017,,,
+JSR009,Thamnophis couchii,Pinecrest Lake ,Tuolumne ,M,,29-Sep-17,314,13,,35,16,,,,29-SEPT-2017/14-OCT-2017/31-OCT-2017,,,
+JSR010,Thamnophis atratus,Waddell Creek,Santa Cruz,M,,16-Oct-17,,28,,36.25,28,,,trout,16-OCT-2017/31-OCT-2017/14-NOV-20117,,,
+JSR011,Thamnophis elegans,Waddell Creek,Santa Cruz,M,,16-Oct-17,,30,,43,45,,,,16-OCT-2017/31-OCT-201714-NOV-2017,,,
+JSR014,Thamnophis sirtalis,"Hog Lake, Hopland Research Center",Mendocino,,29_June_2018,29_June_2018,52,66,,,,,,,29-Jun-18,,,
+JSR015,Thamnophis sirtalis,"Hog Lake, Hopland Research Center",Mendocino,,29_June_2018,29_June_2018,48,45,,,,,,,30-Jun-18,,,
+JSR016,Thamnophis sirtalis,"Hog Lake, Hopland Research Center",Mendocino,,29_June_2018,29_June_2018,450,54,,,,,,,1-Jul-18,,,
+JSR017,Thamnophis sirtalis,"Hog Lake, Hopland Research Center",Mendocino,,29_June_201,29_June_201,400,26,,,,,,,2-Jul-18,,,
+JSR018,Thamnophis sirtalis,"Hog Lake, Hopland Research Center",Mendocino,,29_June_2018,29_June_2018,430,44,,,,,,,3-Jul-18,,,
+JSR019,Thamnophis sirtalis,"Hog Lake, Hopland Research Center",Mendocino,,29_June_2018,29_June_2018,450,39,,,,,,,4-Jul-18,,,
+JSR020,Thamnophis sirtalis,"Hog Lake, Hopland Research Center",Mendocino,,29_June_2018,29_June_2018,470,52,,,,,,,5-Jul-18,,,
+JSR021,Thamnophis sirtalis,"Hog Lake, Hopland Research Center",Mendocino,,29_June_2018,29_June_2018,400,27,,,,,,,6-Jul-18,,,
+JSR022,Thamnophis sirtalis,"Hog Lake, Hopland Research Center",Mendocino,,29_June_2018,29_June_2018,390,32,,,,,,,7-Jul-18,,,
+JSR023,Thamnophis sirtalis,"Hog Lake, Hopland Research Center",Mendocino,,29_June_2018,29_June_2018,460,43,,,,,,,8-Jul-18,,,
+MTJH381,Thamnophis sirtalis,Angelo Reserve,Mendocino,M,,20-Jun-17,280,10.5,,40.25,26,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,4.16,+/+
+MTJH384,Thamnophis sirtalis,Angelo Reserve,Mendocino,F,,20-Jun-17,430,27,,45,34,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,5.45,+/+
+MTJH390,Thamnophis sirtalis,Orick,Humboldt,F,,20-Jun-17,270,10,,40,30,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,2.4,+/+
+MTJH394,Thamnophis sirtalis,Orick,Humboldt,M,,20-Jun-17,399,22,,42,30,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,2.43,+/+
+MTJH399,Thamnophis sirtalis,Orick,Humboldt,F,,20-Jun-17,450,33,,49,48,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,2.54,+/+
+MTJH402,Thamnophis sirtalis,Orick,Humboldt,F,,20-Jun-17,420,23,,45,39,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,10.56,+/+
+MTJH403,Thamnophis sirtalis,Orick,Humboldt,-,,20-Jun-17,510,42,,51.5,55,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,DIED 23-APRIL-2018,2.78,
+MTJH411,Thamnophis sirtalis,Elk River,"Curry, OR",F,,20-Jun-17,555,30,,57,90,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,11.75,V/V
+MTJH412,Thamnophis sirtalis,Elk River,"Curry, OR",M,,20-Jun-17,450,34,,50.5,57,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,10.4,V/V
+MTJH415,Thamnophis sirtalis,Elk River,"Curry, OR",F,,20-Jun-17,360,20,,48.5,68,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,WATCH,27.8,V/V
+MTJH417,Thamnophis sirtalis,Elk River,"Curry, OR",-,,20-Jun-17,575,84,,58,51,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,eye cap; poor condition; EUTHANIZED 22-MAY-2018,13.3,V/V
+MTJH418,Thamnophis sirtalis,Elk River,"Curry, OR",F,,20-Jun-17,600,62,,66.5,74,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,12.55,V/V
+MTJH422,Thamnophis sirtalis,Tahkenitch Lake,"Douglas, OR",M,,20-Jun-17,410,23,,45,39,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,WATCH,50.6,VA/VA
+MTJH423,Thamnophis sirtalis,Tahkenitch Lake,"Douglas, OR",-,,20-Jun-17,400,26,,-,-,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,DIED 15-AUG-2017,79.1,
+MTJH424,Thamnophis sirtalis,Tahkenitch Lake,"Douglas, OR",M,,20-Jun-17,425,28,,43.5,34,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,defensive,VA/VA
+MTJH425,Thamnophis sirtalis,Tahkenitch Lake,"Douglas, OR",F,,20-Jun-17,250,7.5,,39.5,35,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,defensive,VA/VA
+MTJH426,Thamnophis sirtalis,Tahkenitch Lake,"Douglas, OR",F,,20-Jun-17,510,60,,52.5,61,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,WATCH,50.9,VA/VA
+MTJH427,Thamnophis sirtalis,Tahkenitch Lake,"Douglas, OR",M,,20-Jun-17,360,18.5,,43,36,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,53.8,VA/VA
+MTJH428,Thamnophis sirtalis,10 Mile Creek,"Lane, OR",-,,20-Jun-17,470,35,,-,-,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,EUTHANIZED due to health issues 21-SEPT-2017,defensive,
+MTJH429,Thamnophis sirtalis,10 Mile Creek,"Lane, OR",M,,20-Jun-17,190,2.75,,28,12,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,31.6,VA/VA
+MTJH430,Thamnophis sirtalis,10 Mile Creek,"Lane, OR",F,,20-Jun-17,585,88,,62,116,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,WATCH,17.4,+/+
+MTJH475,Thamnophis sirtalis,Hebo,"Lincoln, OR",F,,20-Jun-17,220,4.5,,29,13,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,40.4,V/V
+MTJH476,Thamnophis sirtalis,Hebo,"Lincoln, OR",M,,20-Jun-17,210,4.3,,25.5,7,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,defensive,V/VA
+MTJH477,Thamnophis sirtalis,Hebo,"Lincoln, OR",M,,20-Jun-17,400,27.7,,47.5,42,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,46.4,V/V
+MTJH478,Thamnophis sirtalis,Hebo,"Lincoln, OR",F,,20-Jun-17,530,100.4,,,,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,gave birth to 15 offspring 10-SEPT-2017,defensive,VA/VA
+MTJH481,Thamnophis sirtalis,Hebo,"Lincoln, OR",F,,20-Jun-17,400,25.7,,49.5,45,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,defensive,V/V
+MTJH482,Thamnophis sirtalis,Hebo,"Lincoln, OR",-,,20-Jun-17,200,4.5,,-,-,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,defensive,
+ZN9-2016,Thamnophis sirtalis,,,F,,20-Jun-17,420,20,,60,108,,,,12-JULY-2017/27-JULY-2017/10-AUG-2017,,,

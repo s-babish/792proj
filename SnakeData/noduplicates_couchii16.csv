@@ -1,4 +1,4 @@
-INDIV,Collector ID,Species,Locality,Unnamed: 4,Mass,SVL,TL, Trial1 , Trial2 ,BASE,INJ #,TTX DOSE(mg),POST TIME,POST/BASE,1 MU/g,ml of Dilution,dilution,MAMU
+INDIV,Collector ID,Species,Locality,Unnamed: 4,WT,SVL,TL, Trial1 , Trial2 ,BASE,INJ #,TTX DOSE(mg),POST TIME,POST/BASE,1 MU/g,ml of Dilution,dilution,MAMU
 16.1,EJE 158,T. couchii,Nevada,Faucherie Lake Dam,56.8,,,0.946,0.72,0.833,5MAMU,0.00405836,1.301,64.03%,,0.081,0.05,8.6
 16.101,EJE 159,T. couchii,Nevada,Faucherie Lake Dam,33.2,,,0.663,0.756,0.71,5MAMU,0.00237214,1.139,62.29%,,0.047,0.05,21.4
 16.102,EJE 160,T. couchii,Nevada,Faucherie Lake Dam,9.4,,,0.913,,0.913,5MAMU,0.00067163,1.889,48.33%,,0.013,0.05,21.7

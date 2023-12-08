@@ -1,4 +1,4 @@
-INDIV,species,Locality,Mass,SVL,TL, Trial1 , Trial2 ,BASE,INJ #,TTX DOSE(mg),POST TIME,POST/BASE,1 MU/g,ml of Dilution,dilution,Unnamed: 16,MAMU @ 50%
+INDIV,species,Locality,WT,SVL,TL, Trial1 , Trial2 ,BASE,INJ #,TTX DOSE(mg),POST TIME,POST/BASE,1 MU/g,ml of Dilution,dilution,Unnamed: 16,MAMU @ 50%
 15.22,couchii,"Canyon Cr., NV Co, CA",19.9,,,0.766,0.696,0.731,5MU,0.001421855,0.754,96.95%,,0.142,0.01,CRF2669,82.5
 15.23,couchii,"Canyon Cr., NV Co, CA",7.2,,,0.79,0.963,0.877,5MU,0.00051444,0.891,98.37%,,0.103,0.005,CRF2670,82
 15.24,couchii,"Canyon Cr., NV Co, CA",50.9,,,0.573,0.61,0.592,5MU,0.003636805,0.715,82.73%,,0.073,0.05,CRF2671,17
