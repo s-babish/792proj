@@ -206,14 +206,13 @@ out_df.to_csv("concatenatedcols.csv",index=False) #output! hard-coded name becau
 
 -   input prompts in scripts
 
-## Peechatt has three 20+ year datasets with caterpillar, host plant, and other data.
+## Peechatt has three 20+ year datasets with caterpillar, host plant, and other probably interesting data.
 
--   First, I imported the datasets.
--   I cleaned the data, and extracted the columns I wanted to look at further.
--   I've used the data before to calculte the host breadth of the species that were collected. Previously, I manually went through the excel, sorted by lep species name, and counted the unique number of host plants. But with pandas and numpy, it took 4 lines of code!
+-   First, I imported the datasets, cleaned the data, and extracted the columns I wanted to look at further.
+-   I've used the data before to calculate the host breadth of the species that were collected. Previously, I manually went through the excel, sorted by lep species name, and counted the unique number of host plants. But with pandas and numpy, it took 4 lines of code!
 -   I used matplotlib to make figures of species richness, rank abundance, etc. for the sites.
 
-**import packages & check required datasets**
+#### Import dataset, and clean! although your data cleaning is really dependent on what you have to work with.
 
 ``` python
 #!/usr/bin/env python3
@@ -232,4 +231,114 @@ df = pd.read_csv("Costa_Rica_Database_2022.csv",
                           'plant family', 'plant species', 'plant common name',
                           'order','family','sub family','lep species','lep name'], 
                 parse_dates=['Date Collected'],infer_datetime_format=True)
+                
+#Cleaning up locale names so that they are the first three characters only 
+df['plot_s']=df['locale'].str[:3]
+
 ```
+#### Locating a lep 
+Using Sage's script ("extract_couchii.py"), I was able to extract information for a lep species of interest. I customized their script to suit my dataset - it took about a minute to use.  
+``` python
+for file in sys.argv[1:]:  #loop through all files passed to the script
+  IN=pd.read_csv(file)
+  
+  if ("lep species" in list(IN.columns)): #most common column heading
+      Couchii=IN.loc[IN["lep species"].str.strip() == "quadrus cerialis"]
+      Couchii.to_csv("quadceri.csv",index = False,mode='a')
+  
+  elif ("Lep Species" in list(IN.columns)):
+      Couchii2=IN.loc[IN["Species"].str.strip() == "quadrus cerialis"]
+      Couchii2.to_csv("quadceri.csv",index=False, mode='a')
+  
+  elif ("Lep species" in list(IN.columns)):
+      Couchii3=IN.loc[IN["Spp"].str.strip() == "quadrus cerialis"]
+      Couchii3.to_csv("quadceri.csv",index=False, mode='a')
+```
+```{r echo=FALSE}
+quadceri = read.csv("VPscripts/quadceri.csv")
+head(quadceri)
+
+```
+#### Species Richness and Abundance Plots
+
+Diversity indices are often scrutinized for not capturing the whole story, but this is my attempt to understand what exactly they are and how they can be visualized. My next steps would be to understand, code, and develop visualizations for other measures of diversity like beta and gamma diversity, interaction diversity, etc. This is just the beginning... 
+
+``` python 
+#Species Richness: number of species observed 
+richness = df['lep species'].nunique()
+print("\nNumber of species: ", richness,"\n")
+
+#Number of species vs. #of individuals observed 
+plt.figure()
+spec_abun = df.groupby('lep species')['lep species'].count().rename('abundance')
+spec_abun.to_csv("Abundance.csv")
+df2 = pd.read_csv("Abundance.csv")
+spec_numabun = df2.groupby('abundance').count().plot()
+plt.xlim(0,60)
+plt.ylabel("Number of species")
+plt.savefig('Species_vs_Abundance.png')
+
+```
+```{r, include=TRUE, fig.align="center", out.width='800\\linewidth', out.height='600\\linewidth', echo=FALSE}
+knitr::include_graphics("VPscripts/Species_vs_Abundance.png")
+```
+
+#### Rank Abundance Plots
+
+These are another great way to visualize diversity. Again, rare species are more commonly found. Common species are rarelky found. Higher ranks are given to species with rare abundances. 
+
+```python
+# Rank abundance plot : Relative abundancy vs. Rank (low rank is most abundant)
+plt.figure()
+spec_rank = df2.sort_values('abundance', ascending=False)
+print("\nNumber of individuals: ", spec_rank['abundance'].sum(), "\n")
+spec_rank['abunprop'] = spec_rank['abundance']/(spec_rank['abundance'].sum())
+spec_rank['rank'] = spec_rank.reset_index().index 
+spec_rank = spec_rank.astype({'abunprop': float, 'rank':int})
+spec_rank['rank'] +=1
+spec_rank['logabun'] = np.log(spec_rank['abunprop'])
+print(spec_rank)
+plt.scatter(spec_rank['rank'], spec_rank['logabun'], s = 0.5)
+plt.savefig('Rank Abundance.png')
+```
+```{r, include=TRUE, fig.align="center", out.width='800\\linewidth', out.height='600\\linewidth', echo=FALSE}
+knitr::include_graphics("VPscripts/Rank Abundance.png")
+```
+
+#### Diet Breadth data (what I was after!)
+
+One of my research interests is the evolution of specialization; we observe countless instances of specialization in host plant-caterpillar-parasitoid systems. I would love to continue the work documenting the interactions in these systems and give power to the data that people hve collected long term. Here's an attempt to visualize host plant specialization. 
+
+```python
+#Diet breadth, all instances of host plants recorded for each species 
+diet_names = df.groupby('lep species')['plant species'].unique()
+diet_names.to_csv("names_diet.csv")
+diet_number = df.groupby('lep species')['plant species'].nunique()
+diet_number.to_csv("numbers_diet.csv")
+df_names = pd.read_csv("names_diet.csv")
+df_num = pd.read_csv("numbers_diet.csv")
+diet_full = pd.merge(df_names, df_num, on='lep species')
+diet_full.to_csv("Diet Breadth Summary.csv")
+```
+```{r}
+diet_breadth_num = read.csv("VPscripts/Diet Breadth Summary.csv")
+head(diet_breadth_num)
+```
+``` python 
+plt.figure()
+breadth = df_num.groupby('plant species')['lep species'].count().plot()
+plt.xlabel("Diet - # of host plant species")
+plt.ylabel("Number of Lepidopteran Species")
+plt.title("Diet Breadth Plot")
+plt.savefig("Diet Breadth Plot")
+```
+```{r, include=TRUE, fig.align="center", out.width='800\\linewidth', out.height='600\\linewidth', echo=FALSE}
+knitr::include_graphics("VPscripts/Diet Breadth Plot.png")
+```
+
+#### Future Goals 
+
+- Visualizing beta, gamma, interaction diversity  
+- Importing virus data to observe infection rates across taxa 
+- Importing parasitoid data to observe parasitism rates across taxa 
+- Combining data from 3 sites to show latitudinal, or at least geographic, variation 
