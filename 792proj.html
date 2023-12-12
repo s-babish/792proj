@@ -385,11 +385,118 @@ resistance and muscle function.</p>
 <h3>Part 1: Catalog Searches</h3>
 <p>My first steps for this project were parsing through several specimen
 collection catalogs and extracting specimens based on increasingly
-specific qualifications.</p>
+specific qualifications. This is what the heads of some of those
+catalogs look like, to give an idea of what I was working with:</p>
+<pre><code>##   CollPreNo CollNo CollPre      Genus           Sp        Ssp      County
+## 1  CRF 0001      1     CRF Thamnophis      elegans terrestris    Alameda 
+## 2  CRF 0002      2     CRF  Pituophis melanoleucus  catenifer Stanislaus 
+## 3  CRF 0003      3     CRF     Lanius ludovicianus                       
+## 4  CRF 0004      4     CRF                                               
+## 5  CRF 0005      5     CRF                                               
+## 6  CRF 0006      6     CRF                                               
+##        State Latitude Longitude  DateColl Sex Remarks Stage
+## 1 California                    20-Mar-95                  
+## 2 California                                               
+## 3                                                 DOR      
+## 4                                                          
+## 5                                                          
+## 6                                                          
+##                                                                                          Local
+## 1 behind Lawerence Hall of Science, off Stadium Way, Berkeley Hills, Berkeley, Alameda Co., CA
+## 2                                                                                             
+## 3                                                                                             
+## 4                                                                                             
+## 5                                                                                             
+## 6                                                                                             
+##        Collector.s. Alt..ID CollSpLocal Tissues Museum CatNo EcoData Country
+## 1 C.R. Feldman, HWG                  NA                   NA             USA
+## 2                                    NA                   NA             USA
+## 3                                    NA                   NA             USA
+## 4                                    NA                   NA             USA
+## 5                                    NA                   NA             USA
+## 6                                    NA                   NA             USA
+##      Class OrderSub Family Continent Skel CollDateYear CollDateMonth
+## 1 Reptilia                                        1995           Mar
+## 2 Reptilia                                          NA              
+## 3                                                   NA              
+## 4                                                   NA              
+## 5                                                   NA              
+## 6                                                   NA              
+##   CollDateDay       Elev Tiss Pres IdDate Pubs GenBank
+## 1          20 ca. 300 ft   NA               NA        
+## 2          NA              NA               NA        
+## 3          NA              NA               NA        
+## 4          NA              NA               NA        
+## 5          NA              NA               NA        
+## 6          NA              NA               NA</code></pre>
+<pre><code>##           ID             species         locality    county sex capture_date
+## 1 &quot;Sneaky 2&quot;       Charina botae                              -             
+## 2   &quot;Sneaky&quot;       Charina botae                              -             
+## 3        CRF      Charina bottae       Ash Canyon        NV   -             
+## 4    CRF2393  Thamnophis elegans McCullough Ranch    Sonoma   F             
+## 5    CRF2509      Charina bottae        Lily Lake El Dorado   -             
+## 6    CRF2980 Coluber constrictor                       Yolo   -             
+##   lab_entry_date SVL.mm._at_lab_entry mass.g._at_lab_entry mass.g._14Oct2017
+## 1                                  NA                   NA                NA
+## 2                                  NA                   NA                NA
+## 3      27-Feb-17                   NA                   27                NA
+## 4      12-May-13                   NA                   NA                NA
+## 5      27-Jun-14                   NA                   90                NA
+## 6      21-Apr-16                   NA                   NA                NA
+##   SVL.mm._16April2018 mass.g._16April2018 SVL.mm._before_muscle_exp
+## 1                  21                   6                        NA
+## 2                  40                  41                        NA
+## 3                                                                NA
+## 4                77.5                 255                        NA
+## 5                   -                   -                        NA
+## 6                63.5                  93                        NA
+##   mass.g._before_muscle_exp food_type                  Ivermectin_treatment
+## 1                        NA                                                
+## 2                        NA                                                
+## 3                        NA      mice 12-JULY-2017/27-JULY-2017/10-AUG-2017
+## 4                        NA           12-JULY-2017/27-JULY-2017/10-AUG-2017
+## 5                        NA      mice 12-JULY-2017/27-JULY-2017/10-AUG-2017
+## 6                        NA      mice 12-JULY-2017/27-JULY-2017/10-AUG-2017
+##                    Notes X50.MAMU genotype
+## 1                                         
+## 2                                         
+## 3                                         
+## 4             Socialized                  
+## 5 FOUND DEAD 14-DEC-2017                  
+## 6</code></pre>
+<pre><code>##   CollPreNo CollNo CollPre       Genus       Sp      Location County State
+## 1    KER001      1     KER  Thamnophis  couchii    Deep Creek Fresno    CA
+## 2    KER002      2     KER  Thamnophis  couchii    Deep Creek Fresno    CA
+## 3    KER003      3     KER Thamnophis  sirtalis    Deep Creek Fresno    CA
+## 4    KER004      4     KER Thamnophis   couchii Emerald Pools Nevada    CA
+## 5    KER005      5     KER Thamnophis   couchii Emerald Pools Nevada    CA
+## 6    KER006      6     KER Thamnophis   couchii Emerald Pools Nevada    CA
+##   Latitude Longitude  DateColl TimeColl  MAMU Toxicity..mg.
+## 1 36.93379 -119.2463  6/1/2021    12:55    NA            NA
+## 2 36.93379 -119.2463  6/1/2021    13:05 60.00            NA
+## 3 36.93379 -119.2463  6/2/2021     8:30  4.79            NA
+## 4 36.31927 -120.6567 6/10/2021    12:00  1.01            NA
+## 5 36.31927 -120.6567 6/10/2021    12:00  1.10            NA
+## 6 36.31927 -120.6567 6/10/2021    13:30  0.41            NA
+##                            Notes Stage  X X.1 X.2 X.3 X.4 X.5 X.6 X.7 X.8 X.9
+## 1 stationary in water when found adult NA  NA  NA  NA  NA  NA  NA  NA  NA  NA
+## 2                   on pond edge adult NA  NA  NA  NA  NA  NA  NA  NA  NA  NA
+## 3            under rock, flipped       NA  NA  NA  NA  NA  NA  NA  NA  NA  NA
+## 4                                      NA  NA  NA  NA  NA  NA  NA  NA  NA  NA
+## 5                                      NA  NA  NA  NA  NA  NA  NA  NA  NA  NA
+## 6                                      NA  NA  NA  NA  NA  NA  NA  NA  NA  NA
+##   X.10 X.11 X.12 X.13 X.14 X.15 X.16 X.17 X.18 X.19 X.20 X.21 X.22
+## 1   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA
+## 2   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA
+## 3   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA
+## 4   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA
+## 5   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA
+## 6   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA   NA</code></pre>
 <div id="extract_couchii.py" class="section level4">
 <h4>extract_couchii.py</h4>
-<p>The first qualification was species, pulling out all the specimens
-that were <em>Th. couchii</em>, which I did with this script:</p>
+<p>The first value to extract specimens by was species, pulling out all
+the specimens that were <em>Th. couchii</em>, which I did with this
+script:</p>
 <pre class="python"><code>#!/usr/bin/env python3
 import sys
 import pandas as pd
@@ -599,6 +706,79 @@ first goal, partially because I had gotten better about hard-coding
 everything and partially because I eventually gave up on my goal of
 using regular expressions to align similarly named columns (see future
 goals section).</p>
+<p>Before doing anything, I had to run <code>drop_duplicates</code> on
+each input file. The files contained data of multiple trials for each
+individuals, so there were multiple lines for each individual. I only
+wanted the first line because that was the line with the phenotype, so I
+ran <code>drop_duplicates</code> as above. Here is the head of one of
+the files before and after removing extra observations:</p>
+<pre><code>##   INDIV  WT SVL  TL Trial1 Trial2  BASE      INJ.. TTX.DOSE.mg. POST.TIME
+## 1     9 4.8 209 285  1.401  1.413 1.407   1(8MAMU)      0.00055     1.485
+## 2     9 4.8 209 285  1.401  1.413 1.407  2(16MAMU)      0.00110     1.372
+## 3     9 4.8 209 285  1.401  1.413 1.407  3(40MAMU)      0.00270     1.516
+## 4     9 4.8 209 285  1.401  1.413 1.407 4(100MAMU)      0.00700     1.914
+## 5     9 4.8 209 285  1.401  1.413 1.407 5(200MAMU)      0.01400     5.410
+## 6    10 7.2 243 340  1.080  1.324 1.202   1(8MAMU)      0.00082     1.525
+##   POST.BASE X1MAMU.snake  X  MAMU
+## 1    94.75%  0.000068568 NA 149.5
+## 2   102.55%  0.000068568 NA    NA
+## 3    92.81%  0.000068568 NA    NA
+## 4    73.51%  0.000068568 NA    NA
+## 5    26.01%  0.000068568 NA    NA
+## 6    78.82%  0.000102852 NA    NA</code></pre>
+<pre><code>##   INDIV   WT SVL  TL Trial1 Trial2  BASE    INJ.. TTX.DOSE.mg. POST.TIME
+## 1     9  4.8 209 285  1.401  1.413 1.407 1(8MAMU)      0.00055     1.485
+## 2    10  7.2 243 340  1.080  1.324 1.202 1(8MAMU)      0.00082     1.525
+## 3    11  7.5 222 301  1.451  1.475 1.463 1(8MAMU)      0.00086     1.386
+## 4    12  5.1 228 314  1.158  1.010 1.084 1(8MAMU)      0.00058     1.091
+## 5    13 16.8 372 499  0.677  0.904 0.791 1(8MAMU)      0.00190     0.995
+## 6    14 41.4 477 650  0.707  0.904 0.806 1(8MAMU)      0.00470     1.162
+##   POST.BASE X1MAMU.snake Unnamed..12  MAMU
+## 1    94.75%  0.000068568          NA 149.5
+## 2    78.82%  0.000102852          NA    NA
+## 3   105.56%  0.000107138          NA  63.5
+## 4    99.36%  0.000072850          NA  36.5
+## 5    79.45%  0.000239988          NA  61.5
+## 6    69.32%  0.000591399          NA 123.8</code></pre>
+<p>And, for the sake of comparison, here are the heads of a couple other
+files to show just how differently they were all organized.</p>
+<pre><code>##   INDIV species Locality    WT SVL  TL Trial1 Trial2  BASE INJ.. TTX.DOSE
+## 1  3.30    T.c.  Hat Cr. 129.5 700 856  0.545  0.647 0.596 0.5MU  0.00093
+## 2  3.31    T.c.  Hat Cr. 126.3 666 844  0.575  0.688 0.632 0.5MU  0.00090
+## 3  3.32    T.c.  Hat Cr.  98.7 630 811  0.631  0.660 0.646 0.5MU  0.00071
+## 4  3.33    T.c.  Hat Cr.  91.6 656 836  0.588  0.513 0.551 0.5MU  0.00065
+## 5  3.34    T.c. Deer Cr.  82.4 649 830  0.609  0.666 0.638 0.5MU  0.00059
+## 6  3.35    T.c. Deer Cr.  98.5 600 772  0.582  0.643 0.613 0.5MU  0.00070
+##   POST.TIME POST.BASE ml.of.Dilution dilution Unnamed..15 MAMU
+## 1     0.917    64.99%          0.093 .01mg/ml          NA 1.71
+## 2     0.881    71.68%          0.090 .01mg/ml          NA 2.21
+## 3     0.764    84.49%          0.071 .01mg/ml          NA 1.42
+## 4     0.601    91.60%          0.065 .01mg/ml          NA 1.44
+## 5     0.628   101.51%          0.059 .01mg/ml          NA  1.7
+## 6     0.678    90.34%          0.070 .01mg/ml          NA 2.19</code></pre>
+<pre><code>##    INDIV Collector.ID    Species Locality         Unnamed..4   WT SVL TL Trial1
+## 1 16.100      EJE 158 T. couchii   Nevada Faucherie Lake Dam 56.8  NA NA  0.946
+## 2 16.101      EJE 159 T. couchii   Nevada Faucherie Lake Dam 33.2  NA NA  0.663
+## 3 16.102      EJE 160 T. couchii   Nevada Faucherie Lake Dam  9.4  NA NA  0.913
+## 4 16.108     CRF 3063 T. couchii Toulumne       Cherry Creek 89.2  NA NA  0.865
+## 5 16.109     CRF 3064 T. couchii Toulumne       Cherry Creek 48.8  NA NA  0.706
+## 6 16.110     CRF 3065 T. couchii Toulumne       Cherry Creek 59.4  NA NA  0.702
+##   Trial2  BASE  INJ.. TTX.DOSE.mg. POST.TIME POST.BASE X1.MU.g ml.of.Dilution
+## 1  0.720 0.833  5MAMU   0.00405836     1.301    64.03%      NA          0.081
+## 2  0.756  0.71  5MAMU   0.00237214     1.139    62.29%      NA          0.047
+## 3     NA 0.913  5MAMU   0.00067163     1.889    48.33%      NA          0.013
+## 4     NA 0.865 25MAMU   0.03186670        NA   #DIV/0!      NA          0.319
+## 5  0.796 0.751 25MAMU   0.01743380     1.183    63.48%      NA          0.174
+## 6  0.867 0.785 25MAMU   0.02122065     1.023    76.69%      NA          0.212
+##   dilution       MAMU
+## 1     0.05        8.6
+## 2     0.05       21.4
+## 3     0.05       21.7
+## 4     0.10 Gave Birth
+## 5     0.10         69
+## 6     0.10       85.3</code></pre>
+<p>Once that was done, I was ready to concatenate and filter my
+files.</p>
 <div id="concat_keepsetcols.py" class="section level4">
 <h4>concat_keepsetcols.py</h4>
 <p>I actually did this all in one program (yay efficiency!), which takes
@@ -626,15 +806,85 @@ for col in sys.argv[fileend:]: #loop through all column names passed as argument
     
 out_df[sys.argv[fileend]]=out_df[sys.argv[fileend]].replace(&#39;[^\d\.]&#39;,np.nan,regex=True) #this was skirting the edge of hard-coding, it removed everything except numbers and decimal points. Though in this case all the data I kept was numeric, I did it for a specific column because if I were to do it for the entire data frame, any text data would automatically be lost. It replaces the strings and characters with an NA value instead of blank space, which allows them to be stripped out by the below.
 
-out_df.dropna(subset=[sys.argv[fileend],sys.argv[fileend+1]], inplace = True) #remove rows that don&#39;e have entries for at least the first two columns
+out_df.dropna(subset=[sys.argv[fileend],sys.argv[fileend+1]], inplace = True) #remove rows that don&#39;t have entries for at least the first two columns
 
 out_df.to_csv(&quot;concatenatedcols.csv&quot;,index=False) #output! hard-coded name because there were too many arguments already</code></pre>
+<p>Ultimately, I ended up with the file below, which had the data I
+needed on each snake and nothing extra. As you can see, there are no NAs
+in the first two columns because I specified those as the two variables
+that needed to be present for an entry to be worth including.</p>
+<pre><code>##    MAMU  BASE   WT SVL  TL
+## 1 149.5 1.407  4.8 209 285
+## 2  63.5 1.463  7.5 222 301
+## 3  36.5 1.084  5.1 228 314
+## 4  61.5 0.791 16.8 372 499
+## 5 123.8 0.806 41.4 477 650
+## 6 119.5 0.688 23.3 384 532</code></pre>
+<pre><code>##       MAMU             BASE              WT               SVL       
+##  Min.   :  0.10   Min.   :0.4640   Min.   :  2.500   Min.   :175.0  
+##  1st Qu.:  4.05   1st Qu.:0.7133   1st Qu.:  4.165   1st Qu.:195.0  
+##  Median : 24.05   Median :0.8785   Median :  9.250   Median :261.0  
+##  Mean   : 41.36   Mean   :0.9179   Mean   : 34.326   Mean   :360.9  
+##  3rd Qu.: 74.85   3rd Qu.:1.1180   3rd Qu.: 44.775   3rd Qu.:507.2  
+##  Max.   :161.50   Max.   :1.5310   Max.   :252.700   Max.   :854.0  
+##                                    NA&#39;s   :54        NA&#39;s   :60     
+##        TL        
+##  Min.   : 232.0  
+##  1st Qu.: 258.2  
+##  Median : 295.5  
+##  Mean   : 446.3  
+##  3rd Qu.: 628.5  
+##  Max.   :1100.0  
+##  NA&#39;s   :90</code></pre>
+<p>This data frame will be used for future visualization and modeling
+(below), but this was the extent of the pandas-based manipulation I
+wanted to do on these files!</p>
 </div>
 </div>
 <div id="future-goals" class="section level3">
 <h3>Future Goals</h3>
+<p>This was all I did with this data for this project, but there’s some
+future goals I have for both my python scripts and my data that fell
+either outside the theoretical scope of this project or were beyond my
+ability to tackle at this point in time. Here are some of the ones I
+mentioned throughout the write-up, with a little more detail about
+each:</p>
 <ul>
-<li>input prompts in scripts</li>
+<li>Input Prompts in Scripts - Python has a variety of ways to
+incorporate input from the user into the operation of a script,
+including the <code>cmd</code> module and <code>input()</code> (a
+built-in function). Some of these programs would have really benefitted
+from this, and I wouldn’t have felt the need to hard-code quite so much
+if I knew how to do this. My last script is a pretty good example of an
+overly complicated amount and order of command-line inputs, and I think
+running that program would be a little more bearable if I was prompted
+for the files, values, and column names one at a time.</li>
+<li>Regular Expression Column Matching for Concatenating - I spent a
+good amount of time on stack exchange trying to figure out how to
+concatenate data frames according to columns with similar names. For
+example, “ID” and “INDIV” are pretty close, and so are “Sp” and
+“Species” (though the latter is much more likely to work with regular
+expressions in my opinion). Some of the mismatches I doubt could be
+resolved this way (“WT” and “Mass” have absolutely nothing in common),
+and changing them by hand is probably more efficient than a program at
+this point given the relatively small number of files I have, but it’s
+something I might consider in the future (or, you know, just making sure
+that my personal files are never this unorganized).</li>
+<li>Data Visualization - Peechatt got into this some in her data
+manipulation, but I spent too long on all the scripts I was making to be
+able to really do it justice (and I just feel better plotting things in
+R). In the long term I definitely plan to make some correlation plots
+with my dataset from part 2 and see what relationships may or may not be
+there. I’ll definitely be adapting her code to do it though!</li>
+<li>Modeling in Python? - The question mark is there not because I don’t
+think it’s possible but because I have no idea how to go about it. Also
+with my dataset from part 2, I want to make a model investigating the
+relationship between base speed and the other 4 variables. I have a good
+idea of how to do this in R in several different ways, but I have no
+clue how to do it in python. Realistically I will probably end up doing
+this in R because I’m so much more comfortable with it, but I’d like to
+spend some time at least reading up on and messing around with simpler
+models in R.</li>
 </ul>
 </div>
 </div>

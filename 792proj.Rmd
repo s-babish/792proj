@@ -21,11 +21,21 @@ I needed two different sets of information from these data sets. First, which sp
 
 ### Part 1: Catalog Searches
 
-My first steps for this project were parsing through several specimen collection catalogs and extracting specimens based on increasingly specific qualifications.
+My first steps for this project were parsing through several specimen collection catalogs and extracting specimens based on increasingly specific qualifications. This is what the heads of some of those catalogs look like, to give an idea of what I was working with:
+
+```{r echo=FALSE}
+crfcat <- read.csv("crf_cat_20Sept23.csv")
+head(crfcat)
+jsrcat <- read.csv("JSR_collection.csv")
+head(jsrcat)
+kercat <- read.csv("KER_Collection_Cat.csv")
+head(kercat)
+```
+
 
 #### extract_couchii.py
 
-The first qualification was species, pulling out all the specimens that were *Th. couchii*, which I did with this script:
+The first value to extract specimens by was species, pulling out all the specimens that were *Th. couchii*, which I did with this script:
 
 ``` python
 #!/usr/bin/env python3
@@ -173,6 +183,27 @@ head(specimendata)
 
 My other big goal for this project was to go through some other, much older data files and extract all the relevant information while combining them into one file. This was inconvenient only because the files all had very mismatched columns, and because many of the entries were missing data I needed (so I didn't want the entries if they didn't have that data). It was overall a much less complicated process than the first goal, partially because I had gotten better about hard-coding everything and partially because I eventually gave up on my goal of using regular expressions to align similarly named columns (see future goals section).
 
+Before doing anything, I had to run `drop_duplicates` on each input file. The files contained data of multiple trials for each individuals, so there were multiple lines for each individual. I only wanted the first line because that was the line with the phenotype, so I ran `drop_duplicates` as above. Here is the head of one of the files before and after removing extra observations:
+
+```{r echo=FALSE}
+dupdf <- read.csv("SnakeData/couchii01.csv")
+head(dupdf)
+
+solodf <- read.csv("SnakeData/noduplicates_couchii01.csv")
+head(solodf)
+```
+
+And, for the sake of comparison, here are the heads of a couple other files to show just how differently they were all organized.
+
+```{r echo=FALSE}
+solodf03 <- read.csv("SnakeData/noduplicates_couchii0304.csv")
+head(solodf03)
+solodf16 <- read.csv("SnakeData/noduplicates_couchii16.csv")
+head(solodf16)
+```
+
+Once that was done, I was ready to concatenate and filter my files.
+
 #### concat_keepsetcols.py
 
 I actually did this all in one program (yay efficiency!), which takes a few arguments: the number of files you're passing to it, the files, and the names of the columns you want to keep for the final output. That was important because there was a lot of information in these files I didn't need in my output file, and it was easier to say which to keep than manually delete all those extra columns.
@@ -197,14 +228,29 @@ for col in sys.argv[fileend:]: #loop through all column names passed as argument
     
 out_df[sys.argv[fileend]]=out_df[sys.argv[fileend]].replace('[^\d\.]',np.nan,regex=True) #this was skirting the edge of hard-coding, it removed everything except numbers and decimal points. Though in this case all the data I kept was numeric, I did it for a specific column because if I were to do it for the entire data frame, any text data would automatically be lost. It replaces the strings and characters with an NA value instead of blank space, which allows them to be stripped out by the below.
 
-out_df.dropna(subset=[sys.argv[fileend],sys.argv[fileend+1]], inplace = True) #remove rows that don'e have entries for at least the first two columns
+out_df.dropna(subset=[sys.argv[fileend],sys.argv[fileend+1]], inplace = True) #remove rows that don't have entries for at least the first two columns
 
 out_df.to_csv("concatenatedcols.csv",index=False) #output! hard-coded name because there were too many arguments already
 ```
 
+Ultimately, I ended up with the file below, which had the data I needed on each snake and nothing extra. As you can see, there are no NAs in the first two columns because I specified those as the two variables that needed to be present for an entry to be worth including.
+
+```{r echo=FALSE}
+concatcsv <- read.csv("concatenatedcols.csv")
+head(concatcsv)
+summary(concatcsv)
+```
+
+This data frame will be used for future visualization and modeling (below), but this was the extent of the pandas-based manipulation I wanted to do on these files!
+
 ### Future Goals
 
--   input prompts in scripts
+This was all I did with this data for this project, but there's some future goals I have for both my python scripts and my data that fell either outside the theoretical scope of this project or were beyond my ability to tackle at this point in time. Here are some of the ones I mentioned throughout the write-up, with a little more detail about each:
+
+-   Input Prompts in Scripts - Python has a variety of ways to incorporate input from the user into the operation of a script, including the `cmd` module and `input()` (a built-in function). Some of these programs would have really benefitted from this, and I wouldn't have felt the need to hard-code quite so much if I knew how to do this. My last script is a pretty good example of an overly complicated amount and order of command-line inputs, and I think running that program would be a little more bearable if I was prompted for the files, values, and column names one at a time.
+-   Regular Expression Column Matching for Concatenating - I spent a good amount of time on stack exchange trying to figure out how to concatenate data frames according to columns with similar names. For example, "ID" and "INDIV" are pretty close, and so are "Sp" and "Species" (though the latter is much more likely to work with regular expressions in my opinion). Some of the mismatches I doubt could be resolved this way ("WT" and "Mass" have absolutely nothing in common), and changing them by hand is probably more efficient than a program at this point given the relatively small number of files I have, but it's something I might consider in the future (or, you know, just making sure that my personal files are never this unorganized).
+-   Data Visualization - Peechatt got into this some in her data manipulation, but I spent too long on all the scripts I was making to be able to really do it justice (and I just feel better plotting things in R). In the long term I definitely plan to make some correlation plots with my dataset from part 2 and see what relationships may or may not be there. I'll definitely be adapting her code to do it though!
+-   Modeling in Python? - The question mark is there not because I don't think it's possible but because I have no idea how to go about it. Also with my dataset from part 2, I want to make a model investigating the relationship between base speed and the other 4 variables. I have a good idea of how to do this in R in several different ways, but I have no clue how to do it in python. Realistically I will probably end up doing this in R because I'm so much more comfortable with it, but I'd like to spend some time at least reading up on and messing around with simpler models in R.
 
 ## Peechatt has three 20+ year datasets with caterpillar, host plant, and other probably interesting data.
 
